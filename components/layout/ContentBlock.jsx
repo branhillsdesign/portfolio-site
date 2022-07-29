@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
 
-export const ContentBlock = styled.section`
+export const ContentBlock = styled.div`
 	display: flex;
 	flex-direction: column;
-  width: auto;
-  height: 100%;
-	aspect-ratio: 1/1.6;
-	border-radius: 6px;
-	background-color: ${theme.dark.bg10};
   gap: ${(props) => props.gap || 'null'};
+  width: 424px;
+  height: 70vh;
+  gap: 1.5rem;
 `;

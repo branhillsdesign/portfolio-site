@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
 
-export const Reel = styled.main`
-	display: flex;
-	flex-direction: row;
+const StyledReel = styled.main`
+	display: inline-grid;
+	grid-auto-flow: column;
 	gap: 1.5rem;
-  overflow-y: hidden;
-	overflow-x: auto;
-	height: 60vh;
+	width: 100%;
+	height: 100%;
 `;
+
+export const Reel = (props) => {
+	
+
+	return  (<StyledReel {...props} />);
+};
