@@ -1,12 +1,12 @@
-import { ContentBlock } from '../components/layout/ContentBlock';
-import { MainNav } from '../components/layout/MainNav';
-import { PageHeading } from '../components/layout/PageHeading';
-import { Reel } from '../components/layout/Reel';
-import { SideNav } from '../components/layout/SideNav';
-import { Highlighter } from '../components/fonts/Highlighters';
-import { FlexBox } from '../components/utils/FlexBox';
-import ScrollHorizontal from '../utils/ScrollHorizontal';
-import { Footer } from '../components/layout/Footer';
+import { ContentBlock } from '../components/layout/ContentBlock.jsx';
+import { MainNav } from '../components/layout/MainNav.jsx';
+import { PageHeading } from '../components/layout/PageHeading.jsx';
+import { Reel } from '../components/layout/Reel.jsx';
+import { SideNav } from '../components/layout/SideNav.jsx';
+import { Highlighter } from '../components/fonts/Highlighters.jsx';
+import { FlexBox } from '../components/utils/FlexBox.jsx';
+import ScrollHorizontal from '../utils/ScrollHorizontal.jsx';
+import { Footer } from '../components/layout/Footer.jsx';
 
 export default function About() {
 	return (

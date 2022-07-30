@@ -1,17 +1,17 @@
-import { MainNav } from '../components/layout/MainNav';
-import { PageWrapper } from '../components/layout/PageWrapper';
-import { PageHeading } from '../components/layout/PageHeading';
-import { Highlighter } from '../components/fonts/Highlighters';
-import { SideNav } from '../components/layout/SideNav';
-import { Reel } from '../components/layout/Reel';
-import { ContentBlock } from '../components/layout/ContentBlock';
-import { BodyCopy } from '../components/fonts/BodyCopy';
-import { WorkHistory } from '../components/layout/WorkHistory';
+import { MainNav } from '../components/layout/MainNav.jsx';
+import { PageWrapper } from '../components/layout/PageWrapper.jsx';
+import { PageHeading } from '../components/layout/PageHeading.jsx';
+import { Highlighter } from '../components/fonts/Highlighters.jsx';
+import { SideNav } from '../components/layout/SideNav.jsx';
+import { Reel } from '../components/layout/Reel.jsx';
+import { ContentBlock } from '../components/layout/ContentBlock.jsx';
+import { BodyCopy } from '../components/fonts/BodyCopy.jsx';
+import { WorkHistory } from '../components/layout/WorkHistory.jsx';
 import Image from 'next/image';
-import * as Img from '../assets/img/index';
-import { Footer } from '../components/layout/Footer';
-import { NextImageWrapper } from '../components/utils/NextImageWrapper';
-import { Spacer } from '../components/utils/Spacer';
+import * as Img from '../assets/img/index.js';
+import { Footer } from '../components/layout/Footer.jsx';
+import { NextImageWrapper } from '../components/utils/NextImageWrapper.jsx';
+import { Spacer } from '../components/utils/Spacer.jsx';
 
 export default function Home() {
 	return (

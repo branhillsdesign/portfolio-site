@@ -1,5 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { theme } from '../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig.jsx';
 import * as ga from '../lib/ga';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
