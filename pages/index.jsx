@@ -1,7 +1,5 @@
 import { MainNav } from '../components/layout/MainNav';
-import { PageWrapper } from '../components/layout/PageWrapper';
-import { PageHeading } from '../components/layout/PageHeading';
-import { theme } from '../utils/ThemeConfig';
+import { PageWrapper, PageHeading } from '../components/layout/PageWrapper';
 import { Highlighter } from '../components/fonts/Highlighters';
 import { SideNav } from '../components/layout/SideNav';
 import { Reel } from '../components/layout/Reel';

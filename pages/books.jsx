@@ -5,13 +5,8 @@ import { Reel } from '../components/layout/Reel';
 import { SideNav } from '../components/layout/SideNav';
 import { Highlighter } from '../components/fonts/Highlighters';
 import { FlexBox } from '../components/utils/FlexBox';
-import { BodyCopy } from '../components/fonts/BodyCopy';
-import { WorkHistory } from '../components/layout/WorkHistory';
-import { Spacer } from '../components/utils/Spacer';
-import Image from 'next/image';
 import ScrollHorizontal from '../utils/ScrollHorizontal';
 import { Footer } from '../components/layout/Footer';
-import { NextImageWrapper } from '../components/utils/NextImageWrapper';
 
 export default function About() {
 	return (
