@@ -8,10 +8,15 @@ import { ContentBlock } from '../components/layout/ContentBlock.jsx';
 import { BodyCopy } from '../components/fonts/BodyCopy.jsx';
 import { WorkHistory } from '../components/layout/WorkHistory.jsx';
 import Image from 'next/image';
-import * as Img from '../assets/img/index.js';
 import { Footer } from '../components/layout/Footer.jsx';
 import { NextImageWrapper } from '../components/utils/NextImageWrapper.jsx';
 import { Spacer } from '../components/utils/Spacer.jsx';
+import chicagoTrip from '../assets/img/lauren-bran-hills-chicago-trip.jpg';
+import laurenBranHillsChicagoPier from '../assets/img/lauren-bran-hills.jpg';
+import harrison from '../assets/img/harrison.jpg';
+import barrett from '../assets/img/barrett.jpg';
+import branHarryFish from '../assets/img/IMG_5299.jpg';
+import laurenBarry from '../assets/img/IMG_5300.jpg';
 
 export default function Home() {
 	return (
@@ -37,7 +42,7 @@ export default function Home() {
 					<ContentBlock gap='1.5rem'>
 						<NextImageWrapper>
 							<Image
-								src={Img.chicagoTrip}
+								src={chicagoTrip}
 								layout='fill'
 								alt=''
 								objectFit='cover'
@@ -45,7 +50,7 @@ export default function Home() {
 						</NextImageWrapper>
 						<NextImageWrapper>
 							<Image
-								src={Img.laurenBranHillsChicagoPier}
+								src={laurenBranHillsChicagoPier}
 								layout='fill'
 								alt=''
 								objectFit='cover'
@@ -53,15 +58,15 @@ export default function Home() {
 						</NextImageWrapper>
 					</ContentBlock>
 					<NextImageWrapper>
-						<Image src={Img.harrison} layout='fill' alt='' objectFit='cover' />
+						<Image src={harrison} layout='fill' alt='' objectFit='cover' />
 					</NextImageWrapper>
 					<NextImageWrapper>
-						<Image src={Img.barrett} layout='fill' alt='' objectFit='cover' />
+						<Image src={barrett} layout='fill' alt='' objectFit='cover' />
 					</NextImageWrapper>
 					<ContentBlock gap='1.5rem'>
 						<NextImageWrapper>
 							<Image
-								src={Img.branHarryFish}
+								src={branHarryFish}
 								layout='fill'
 								alt=''
 								objectFit='cover'
@@ -69,7 +74,7 @@ export default function Home() {
 						</NextImageWrapper>
 						<NextImageWrapper>
 							<Image
-								src={Img.laurenBarry}
+								src={laurenBarry}
 								layout='fill'
 								alt=''
 								objectFit='cover'
