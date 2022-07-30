@@ -1,16 +1,17 @@
 import { MainNav } from '../components/layout/MainNav';
-import { PageWrapper, PageHeading } from '../components/layout/PageWrapper';
+import { PageWrapper } from '../components/layout/PageWrapper';
+import { PageHeading } from '../components/layout/PageHeading';
 import { Highlighter } from '../components/fonts/Highlighters';
 import { SideNav } from '../components/layout/SideNav';
 import { Reel } from '../components/layout/Reel';
 import { ContentBlock } from '../components/layout/ContentBlock';
 import { BodyCopy } from '../components/fonts/BodyCopy';
-import { Spacer } from '../components/utils/Spacer';
 import { WorkHistory } from '../components/layout/WorkHistory';
 import Image from 'next/image';
-import * as Img from '../assets/img/index.js';
+import * as Img from '../assets/img/index';
 import { Footer } from '../components/layout/Footer';
 import { NextImageWrapper } from '../components/utils/NextImageWrapper';
+import { Spacer } from '../components/utils/Spacer';
 
 export default function Home() {
 	return (
@@ -74,8 +75,8 @@ export default function Home() {
 								objectFit='cover'
 							/>
 						</NextImageWrapper>
-					</ContentBlock>
-					<Spacer width='5vw' />
+          </ContentBlock>
+          <Spacer width='1.5rem' />
 				</Reel>
 				<Footer />
 			</PageWrapper>
