@@ -10,7 +10,7 @@ import { BodyCopy } from '../components/fonts/BodyCopy';
 import { Spacer } from '../components/utils/Spacer';
 import { WorkHistory } from '../components/layout/WorkHistory';
 import Image from 'next/image';
-import * as Img from '../assets/img/img';
+import * as Img from '../assets/img/index.js';
 import { Footer } from '../components/layout/Footer';
 import { NextImageWrapper } from '../components/utils/NextImageWrapper';
 
@@ -76,8 +76,8 @@ export default function Home() {
 								objectFit='cover'
 							/>
 						</NextImageWrapper>
-          </ContentBlock>
-          <Spacer width='5vw' />
+					</ContentBlock>
+					<Spacer width='5vw' />
 				</Reel>
 				<Footer />
 			</PageWrapper>
