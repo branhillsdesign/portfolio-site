@@ -5,8 +5,8 @@ import { SideNavLink } from '../primitives/SideNavLink';
 const SideNavStyles = styled.nav`
 	display: flex;
 	flex-direction: column;
-	margin-left: 5rem;
-	width: 17rem;
+  grid-area: 3/2/4/4;
+  max-width: 17rem;
 `;
 
 const NavTitle = styled.div`

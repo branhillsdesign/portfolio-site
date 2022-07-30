@@ -1,16 +1,30 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import ScrollHorizontal from '../../utils/HorizontalScroll';
 
 const StyledReel = styled.main`
-	display: inline-grid;
-	grid-auto-flow: column;
+	grid-area: 3/3/4/4;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height: 100%;
 	gap: 1.5rem;
-	width: 100%;
-	height: 100%;
+	& > div {
+		max-width: 424px;
+	}
+	/* Subgrid Below */
+	/* display: grid;
+	grid-template-rows: minmax(0, 1fr);
+	grid-auto-flow: column dense;
+	grid-auto-columns: 424px; 
+	gap: 1.5rem; */
 `;
 
 export const Reel = (props) => {
-	
-
-	return  (<StyledReel {...props} />);
+	return (
+		<>
+			<ScrollHorizontal reverseScroll='true'>
+				<StyledReel>{props.children}</StyledReel>
+			</ScrollHorizontal>
+		</>
+	);
 };

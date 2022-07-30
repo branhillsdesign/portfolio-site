@@ -6,14 +6,15 @@ import { theme } from '../../utils/ThemeConfig';
 const MainNavStyles = styled.nav`
 	display: flex;
 	flex-direction: row;
-	gap: 0;
 `;
 
 const NavWrapper = styled.div`
 	display: flex;
 	justify-content: space-between;
-  margin: 0 4rem;
   align-items: center;
+  margin-left: -1rem;
+  grid-area: 1/2/2/4;
+  padding-right: 5vw;
 `;
 
 export const MainNav = (props) => {

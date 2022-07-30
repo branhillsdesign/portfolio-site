@@ -180,10 +180,9 @@ export default class ScrollHorizontal extends Component {
 
 		// Styles
 		const styles = {
-			height: height || `100%`,
-			width: width || `100%`,
-			overflow: `hidden`,
-			position: `relative`,
+			gridArea: '3/3/4/4',
+			position: 'relative',
+			overflowX: `hidden`,
 			...style,
 		};
 
@@ -200,8 +199,8 @@ export default class ScrollHorizontal extends Component {
 							transform: `translate3d(${z}px, 0,0)`,
 							display: `inline-flex`,
 							height: `100%`,
+							position: `absolute`,
 							willChange: `transform`,
-							gap: `1.5rem`,
 						};
 
 						return (

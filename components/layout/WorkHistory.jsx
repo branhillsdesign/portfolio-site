@@ -48,9 +48,14 @@ const BeenPromoted = styled.div`
 	gap: 0.5rem;
 `;
 
+const WorkHistoryWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const WorkHistory = (props) => {
 	return (
-		<>
+		<WorkHistoryWrapper>
 			<NavTitle>Work History</NavTitle>
 
 			{/* Current Role at BizLibrary */}
@@ -140,6 +145,6 @@ export const WorkHistory = (props) => {
 					2007-13
 				</Highlighter>
 			</WorkItem>
-		</>
+		</WorkHistoryWrapper>
 	);
 };

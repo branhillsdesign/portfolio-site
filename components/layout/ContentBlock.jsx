@@ -1,11 +1,13 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
 
 export const ContentBlock = styled.div`
 	display: flex;
 	flex-direction: column;
-  gap: ${(props) => props.gap || 'null'};
-  width: 424px;
-  height: 70vh;
-  gap: 1.5rem;
+	gap: ${(props) => props.gap || '0'};
+  height: 100%;
+  width: 100%;
+  & > * {
+    height: 50%;
+    width: auto;
+  }
 `;
