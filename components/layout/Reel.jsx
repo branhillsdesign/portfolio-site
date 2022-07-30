@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ScrollHorizontal from '../../utils/HorizontalScroll';
+import ScrollHorizontal from '../../utils/HorizontalScroll.jsx';
 
 const StyledReel = styled.main`
 	grid-area: 3/3/4/4;

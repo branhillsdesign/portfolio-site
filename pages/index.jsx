@@ -11,12 +11,12 @@ import Image from 'next/image';
 import { Footer } from '../components/layout/Footer.jsx';
 import { NextImageWrapper } from '../components/utils/NextImageWrapper.jsx';
 import { Spacer } from '../components/utils/Spacer.jsx';
-import chicagoTrip from '../assets/img/lauren-bran-hills-chicago-trip.jpg';
-import laurenBranHillsChicagoPier from '../assets/img/lauren-bran-hills.jpg';
+import chicagoTrip from '../assets/img/laurenbranchicago.jpg';
+import laurenBranHillsChicagoPier from '../assets/img/laurenbranhills.jpg';
 import harrison from '../assets/img/harrison.jpg';
 import barrett from '../assets/img/barrett.jpg';
-import branHarryFish from '../assets/img/IMG_5299.jpg';
-import laurenBarry from '../assets/img/IMG_5300.jpg';
+import branHarryFish from '../assets/img/branharryfish.jpg';
+import laurenBarry from '../assets/img/laurenbarry.jpg';
 
 export default function Home() {
 	return (
