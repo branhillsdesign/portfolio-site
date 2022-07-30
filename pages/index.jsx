@@ -10,8 +10,6 @@ import { BodyCopy } from '../components/fonts/BodyCopy';
 import { Spacer } from '../components/utils/Spacer';
 import { WorkHistory } from '../components/layout/WorkHistory';
 import Image from 'next/image';
-import laurenBranHills from '../assets/img/IMG_5303.jpg';
-import laurenBranChicagoWillis from '../assets/img/lauren-bran-hills-chicago-trip.jpg';
 import * as Img from '../assets/img/img';
 import { Footer } from '../components/layout/Footer';
 import { NextImageWrapper } from '../components/utils/NextImageWrapper';
@@ -78,7 +76,8 @@ export default function Home() {
 								objectFit='cover'
 							/>
 						</NextImageWrapper>
-					</ContentBlock>
+          </ContentBlock>
+          <Spacer width='5vw' />
 				</Reel>
 				<Footer />
 			</PageWrapper>

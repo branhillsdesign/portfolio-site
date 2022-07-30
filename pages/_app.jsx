@@ -1,8 +1,10 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { theme } from '../utils/ThemeConfig';
+import * as ga from '../lib/ga';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -38,6 +40,22 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 function MyApp({ Component, pageProps }) {
+	const router = useRouter();
+
+	useEffect(() => {
+		const handleRouteChange = (url) => {
+			ga.pageview(url);
+		};
+		//When the component is mounted, subscribe to router changes
+		//and log those page views
+		router.events.on('routeChangeComplete', handleRouteChange);
+
+		// If the component is unmounted, unsubscribe
+		// from the event with the `off` method
+		return () => {
+			router.events.off('routeChangeComplete', handleRouteChange);
+		};
+	}, [router.events]);
 	return (
 		<>
 			<GlobalStyle />

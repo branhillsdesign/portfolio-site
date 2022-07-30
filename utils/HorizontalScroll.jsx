@@ -22,6 +22,7 @@ export default class ScrollHorizontal extends Component {
 				orig + (orig ? ' ' : '') + 'locked__';
 		}
 
+		// eslint-disable-next-line react/no-find-dom-node
 		DOM.findDOMNode(this.hScrollParent).addEventListener(
 			'wheel',
 			this.onScrollStart,
@@ -35,6 +36,7 @@ export default class ScrollHorizontal extends Component {
 				document.firstElementChild.className.replace(/ ?locked__/, '');
 		}
 
+		// eslint-disable-next-line react/no-find-dom-node
 		DOM.findDOMNode(this.hScrollParent).removeEventListener(
 			'wheel',
 			this.onScrollStart
@@ -104,6 +106,7 @@ export default class ScrollHorizontal extends Component {
 	}
 
 	caniscroll() {
+		// eslint-disable-next-line react/no-find-dom-node
 		let el = DOM.findDOMNode(this.hScrollParent);
 		let rect;
 		let scroller;
@@ -127,6 +130,7 @@ export default class ScrollHorizontal extends Component {
 		this.calculate.timer = setTimeout(() => {
 			// Calculate the bounds of the scroll area
 			try {
+				// eslint-disable-next-line react/no-find-dom-node
 				let el = DOM.findDOMNode(this.hScrollParent);
 				let rect;
 

@@ -9,7 +9,7 @@ const StyledReel = styled.main`
 	max-height: 100%;
 	gap: 1.5rem;
 	& > div {
-		max-width: 424px;
+		width: clamp(424px, 20vw, 66ch);
 	}
 	/* Subgrid Below */
 	/* display: grid;
@@ -22,7 +22,7 @@ const StyledReel = styled.main`
 export const Reel = (props) => {
 	return (
 		<>
-			<ScrollHorizontal reverseScroll='true'>
+      <ScrollHorizontal reverseScroll={true}>
 				<StyledReel>{props.children}</StyledReel>
 			</ScrollHorizontal>
 		</>
