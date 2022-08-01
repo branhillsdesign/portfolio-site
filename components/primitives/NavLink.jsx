@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
+import { useRouter } from 'next/router';
+import { ReactPropTypes } from 'react';
+import { Link } from 'next/link';
+import react, { Children } from 'react';
 
 const NavLinkStyles = styled.a`
 	cursor: pointer;
@@ -29,6 +33,11 @@ const NavLinkStyles = styled.a`
 	}
 `;
 
+const ActiveLink = ({ children, activeNavLink, ...props }) => {
+	const { asPath } = useRouter();
+	const child = Children.only(children);
+};
+
 export const NavLink = (props) => {
 	return (
 		<>
@@ -36,3 +45,5 @@ export const NavLink = (props) => {
 		</>
 	);
 };
+
+
