@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
 import { SideNavLink } from '../primitives/SideNavLink';
@@ -33,8 +34,12 @@ export const SideNav = (props) => {
 		<>
       <SideNavStyles {...props}>
         <NavTitle>About</NavTitle>
-				<SideNavLink>Info</SideNavLink>
-				<SideNavLink>Books</SideNavLink>
+        <Link href='https://www.branhills.com'>
+          <SideNavLink>Info</SideNavLink>
+        </Link>
+        <Link href='/books'>
+          <SideNavLink>Books</SideNavLink>
+        </Link>
 				<SideNavLink>Movies</SideNavLink>
 				<SideNavLink>Golf</SideNavLink>
 			</SideNavStyles>

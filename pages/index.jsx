@@ -1,8 +1,6 @@
-import { MainNav } from '../components/layout/MainNav.jsx';
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
-import { SideNav } from '../components/layout/SideNav.jsx';
 import { Reel } from '../components/layout/Reel.jsx';
 import { ContentBlock } from '../components/layout/ContentBlock.jsx';
 import { BodyCopy } from '../components/fonts/BodyCopy.jsx';
@@ -17,16 +15,20 @@ import harrison from '../assets/img/harrison.jpg';
 import barrett from '../assets/img/barrett.jpg';
 import branHarryFish from '../assets/img/branharryfish.jpg';
 import laurenBarry from '../assets/img/laurenbarry.jpg';
+import {
+	DesktopMainNav,
+	DesktopSideNav,
+} from '../components/layout/Navigation.jsx';
 
 export default function Home() {
 	return (
-		<>
+    <>
 			<PageWrapper>
-				<MainNav />
+				<DesktopMainNav />
 				<PageHeading>
 					Thank you for being <Highlighter>here.</Highlighter>
 				</PageHeading>
-				<SideNav />
+				<DesktopSideNav />
 				<Reel>
 					<BodyCopy>
 						{`My name’s Bran. I'm a designer and life-long learner with a
@@ -41,12 +43,7 @@ export default function Home() {
 					<WorkHistory />
 					<ContentBlock gap='1.5rem'>
 						<NextImageWrapper>
-							<Image
-								src={chicagoTrip}
-								layout='fill'
-								alt=''
-								objectFit='cover'
-							/>
+							<Image src={chicagoTrip} layout='fill' alt='' objectFit='cover' />
 						</NextImageWrapper>
 						<NextImageWrapper>
 							<Image
@@ -73,15 +70,10 @@ export default function Home() {
 							/>
 						</NextImageWrapper>
 						<NextImageWrapper>
-							<Image
-								src={laurenBarry}
-								layout='fill'
-								alt=''
-								objectFit='cover'
-							/>
+							<Image src={laurenBarry} layout='fill' alt='' objectFit='cover' />
 						</NextImageWrapper>
-          </ContentBlock>
-          <Spacer width='1.5rem' />
+					</ContentBlock>
+					<Spacer width='1.5rem' />
 				</Reel>
 				<Footer />
 			</PageWrapper>
