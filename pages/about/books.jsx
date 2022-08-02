@@ -11,7 +11,7 @@ import { NextImageWrapper } from '../../components/utils/NextImageWrapper.jsx';
 import { Spacer } from '../../components/utils/Spacer.jsx';
 import { DesktopMainNav, DesktopSideNav } from '../../components/layout/Navigation.jsx';
 
-export default function books() {
+export default function Books() {
 	return (
 		<>
 			<PageWrapper>

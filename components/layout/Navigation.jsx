@@ -1,57 +1,54 @@
 import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { NavLink } from '../primitives/NavLink';
+import NavLink from '../primitives/NavLink';
 import { SideNavLink } from '../primitives/SideNavLink';
-import PropTypes from 'prop-types';
 import * as Icon from '../../assets/icons/Duotone/Index';
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
 
 // Main Navigation Menu Items and Links
-const mainNavMenu = [
-	{ title: 'About', href: '/' },
-	{ title: 'Writing', href: '/writing' },
-	{ title: 'Tools', href: '/tools' },
-	{ title: 'Keeps', href: '/keeps' },
-	{ title: 'Work', href: '/work' },
+export const mainNavMenu = [
+	{ title: 'About', route: '/' },
+	{ title: 'Writing', route: '/writing' },
+	{ title: 'Tools', route: '/tools' },
+	{ title: 'Keeps', route: '/keeps' },
+	{ title: 'Work', route: '/work' },
 ];
 
 // Side Navigation Menu Items and Links
 const sideNavMenu = {
 	about: [
-		{ title: 'Info', href: '/' },
-		{ title: 'Books', href: '/about/books' },
-		{ title: 'Movies', href: '/about/movies' },
-		{ title: 'Golf', href: '/about/golf' },
+		{ title: 'Info', route: '/' },
+		{ title: 'Books', route: '/about/books' },
+		{ title: 'Movies', route: '/about/movies' },
+		{ title: 'Golf', route: '/about/golf' },
 	],
 
 	writing: [
-		{ title: 'Design', href: '/writing/design' },
-		{ title: 'Ideas', href: '/writing/ideas' },
-		{ title: 'ADHD', href: '/writing/adhd' },
-		{ title: 'Dad Life', href: '/writing/dad-life' },
+		{ title: 'Design', route: '/writing/design' },
+		{ title: 'Ideas', route: '/writing/ideas' },
+		{ title: 'ADHD', route: '/writing/adhd' },
+		{ title: 'Dad Life', route: '/writing/dad-life' },
 	],
 
 	tools: [
-		{ title: 'Figma Plugins', href: '/tools/figma-plugins' },
-		{ title: 'Figma Files', href: '/tools/figma-files' },
-		{ title: 'Apps', href: '/tools/apps' },
-		{ title: 'Frameworks', href: '/tools/frameworks' },
-		{ title: 'Extensions', href: '/tools/extensions' },
+		{ title: 'Figma Plugins', route: '/tools/figma-plugins' },
+		{ title: 'Figma Files', route: '/tools/figma-files' },
+		{ title: 'Apps', route: '/tools/apps' },
+		{ title: 'Frameworks', route: '/tools/frameworks' },
+		{ title: 'Extensions', route: '/tools/extensions' },
 	],
 
 	keeps: [
-		{ title: 'Portfolios', href: '/keeps/portfolios' },
-		{ title: 'Articles', href: '/keeps/articles' },
-		{ title: 'Cool Things', href: '/keeps/cool-things' },
-		{ title: 'Podcasts', href: '/keeps/podcasts' },
+		{ title: 'Portfolios', route: '/keeps/portfolios' },
+		{ title: 'Articles', route: '/keeps/articles' },
+		{ title: 'Cool Things', route: '/keeps/cool-things' },
+		{ title: 'Podcasts', route: '/keeps/podcasts' },
 	],
 
 	work: [
-		{ title: 'BizLibrary', href: '/work/bizlibrary' },
-		{ title: 'RSH', href: '/work/rsh' },
-		{ title: 'Open Source', href: '/work/open-source' },
+		{ title: 'BizLibrary', route: '/work/bizlibrary' },
+		{ title: 'RSH', route: '/work/rsh' },
+		{ title: 'Open Source', route: '/work/open-source' },
 	],
 };
 
@@ -78,7 +75,7 @@ export const DesktopMainNav = (props) => {
 				<MainNavStyles {...props}>
 					{mainNavMenu.map((navItem, index) => {
 						return (
-							<NavLink key={index} href={navItem.href}>
+							<NavLink key={index} href={navItem.route}>
 								{navItem.title}
 							</NavLink>
 						);

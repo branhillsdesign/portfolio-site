@@ -22,7 +22,7 @@ import {
 
 export default function Home() {
 	return (
-		<>
+    <>
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
