@@ -184,11 +184,7 @@ export const DesktopMainNav = (props) => {
 			: curRoute.includes(mainNavMenu.work.title)
 			? mainNavMenu.work.title
 			: null;
-	console.log('curRoute is ' + curRoute);
-	console.log('curSection is ' + curSection);
 
-	const isActive = curRoute.includes(curSection) ? true : false;
-	console.log(isActive);
 	return (
 		<>
 			<NavWrapper>
