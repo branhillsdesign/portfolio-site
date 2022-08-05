@@ -1,55 +1,152 @@
 import React from 'react';
 import NavLink from '../primitives/NavLink';
-import { SideNavLink } from '../primitives/SideNavLink';
+import SideNavLink from '../primitives/SideNavLink';
 import * as Icon from '../../assets/icons/Duotone/Index';
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
+import { useRouter } from 'next/router';
 
 // Main Navigation Menu Items and Links
-export const mainNavMenu = [
-	{ title: 'About', route: '/' },
-	{ title: 'Writing', route: '/writing' },
-	{ title: 'Tools', route: '/tools' },
-	{ title: 'Keeps', route: '/keeps' },
-	{ title: 'Work', route: '/work' },
-];
+export const mainNavMenu = {
+	about: {
+		title: 'about',
+		href: '/',
+		section: 'about',
+	},
+	writing: {
+		title: 'writing',
+		href: '/writing',
+		section: 'writing',
+	},
+	tools: {
+		title: 'tools',
+		href: '/tools',
+		section: 'tools',
+	},
+	keeps: {
+		title: 'keeps',
+		href: '/keeps',
+		section: 'keeps',
+	},
+	work: {
+		title: 'work',
+		href: '/work',
+		section: 'work',
+	},
+};
 
 // Side Navigation Menu Items and Links
-const sideNavMenu = {
-	about: [
-		{ title: 'Info', route: '/' },
-		{ title: 'Books', route: '/about/books' },
-		{ title: 'Movies', route: '/about/movies' },
-		{ title: 'Golf', route: '/about/golf' },
-	],
-
-	writing: [
-		{ title: 'Design', route: '/writing/design' },
-		{ title: 'Ideas', route: '/writing/ideas' },
-		{ title: 'ADHD', route: '/writing/adhd' },
-		{ title: 'Dad Life', route: '/writing/dad-life' },
-	],
-
-	tools: [
-		{ title: 'Figma Plugins', route: '/tools/figma-plugins' },
-		{ title: 'Figma Files', route: '/tools/figma-files' },
-		{ title: 'Apps', route: '/tools/apps' },
-		{ title: 'Frameworks', route: '/tools/frameworks' },
-		{ title: 'Extensions', route: '/tools/extensions' },
-	],
-
-	keeps: [
-		{ title: 'Portfolios', route: '/keeps/portfolios' },
-		{ title: 'Articles', route: '/keeps/articles' },
-		{ title: 'Cool Things', route: '/keeps/cool-things' },
-		{ title: 'Podcasts', route: '/keeps/podcasts' },
-	],
-
-	work: [
-		{ title: 'BizLibrary', route: '/work/bizlibrary' },
-		{ title: 'RSH', route: '/work/rsh' },
-		{ title: 'Open Source', route: '/work/open-source' },
-	],
+export const sideNavMenu = {
+	about: {
+		info: {
+			title: 'info',
+			href: '/',
+			section: 'about',
+		},
+		books: {
+			title: 'books',
+			href: '/about/books',
+			section: 'about',
+		},
+		movies: {
+			title: 'movies',
+			href: '/about/movies',
+			section: 'about',
+		},
+		golf: {
+			title: 'golf',
+			href: '/about/golf',
+			section: 'about',
+		},
+	},
+	writing: {
+		design: {
+			title: 'design',
+			href: '/writing/design',
+			section: 'writing',
+		},
+		ideas: {
+			title: 'ideas',
+			href: '/writing/ideas',
+			section: 'writing',
+		},
+		adhd: {
+			title: 'adhd',
+			href: '/writing/adhd',
+			section: 'writing',
+		},
+		dadLife: {
+			title: 'dad life',
+			href: '/writing/dad-life',
+			section: 'writing',
+		},
+	},
+	tools: {
+		figmaPlugins: {
+			title: 'figma plugins',
+			href: '/tools/figma-plugins',
+			section: 'tools',
+		},
+		figmaFiles: {
+			title: 'figma files',
+			href: '/tools/figma-files',
+			section: 'tools',
+		},
+		apps: {
+			title: 'apps',
+			href: '/tools/apps',
+			section: 'tools',
+		},
+		frameworks: {
+			title: 'frameworks',
+			href: '/tools/frameworks',
+			section: 'tools',
+		},
+		extensions: {
+			title: 'extensions',
+			href: '/tools/extensions',
+			section: 'tools',
+		},
+	},
+	keeps: {
+		portfolios: {
+			title: 'portfolios',
+			href: '/keeps/portfolios',
+			section: 'keeps',
+		},
+		articles: {
+			title: 'articles',
+			href: '/keeps/articles',
+			section: 'keeps',
+		},
+		coolThings: {
+			title: 'cool things',
+			href: '/keeps/cool-things',
+			section: 'keeps',
+		},
+		podcasts: {
+			title: 'podcasts',
+			href: '/keeps/podcasts',
+			section: 'keeps',
+		},
+	},
+	work: {
+		bizlibrary: {
+			title: 'BizLibrary',
+			href: '/work/bizlibrary',
+			section: 'work',
+		},
+		rsh: {
+			title: 'RSH',
+			href: '/work/rsh',
+			section: 'work',
+		},
+		openSource: {
+			title: 'open source',
+			href: '/work/open-source',
+			section: 'work',
+		},
+	},
 };
 
 // Desktop Main Nav Layout Styles
@@ -65,18 +162,46 @@ const NavWrapper = styled.div`
 const MainNavStyles = styled.nav`
 	display: flex;
 	flex-direction: row;
+	text-transform: capitalize;
 `;
 
 // Create Main Navigation Menu from JSON Above
 export const DesktopMainNav = (props) => {
+	// Check router against section names to determine active link
+	const router = useRouter();
+	const curRoute = router.pathname;
+	const curSection =
+		curRoute === '/'
+			? mainNavMenu.about.title
+			: curRoute.includes(mainNavMenu.about.title)
+			? mainNavMenu.about.title
+			: curRoute.includes(mainNavMenu.writing.title)
+			? mainNavMenu.writing.title
+			: curRoute.includes(mainNavMenu.tools.title)
+			? mainNavMenu.tools.title
+			: curRoute.includes(mainNavMenu.keeps.title)
+			? mainNavMenu.keeps.title
+			: curRoute.includes(mainNavMenu.work.title)
+			? mainNavMenu.work.title
+			: null;
+	console.log('curRoute is ' + curRoute);
+	console.log('curSection is ' + curSection);
+
+	const isActive = curRoute.includes(curSection) ? true : false;
+	console.log(isActive);
 	return (
 		<>
 			<NavWrapper>
 				<MainNavStyles {...props}>
-					{mainNavMenu.map((navItem, index) => {
+					{Object.entries(mainNavMenu).map(([key, mainNavItem]) => {
 						return (
-							<NavLink key={index} href={navItem.route}>
-								{navItem.title}
+							<NavLink
+								{...props}
+								key={key}
+                href={mainNavItem.href}
+                section={mainNavItem.section}
+								active={curSection}>
+								{mainNavItem.title}
 							</NavLink>
 						);
 					})}
@@ -107,6 +232,7 @@ const NavTitle = styled.div`
 	align-items: center;
 	margin-bottom: 1rem;
 	white-space: nowrap;
+	text-transform: capitalize;
 	&:after {
 		margin-left: 1rem;
 		content: '';
@@ -118,18 +244,33 @@ const NavTitle = styled.div`
 	}
 `;
 
-export const DesktopSideNav = (props) => {
+export const DesktopSideNav = (...props) => {
+	// Check router against section names to determine active link
+	const router = useRouter();
+	const curRoute = router.pathname;
+	const curSection =
+		curRoute === '/'
+			? mainNavMenu.about.title
+			: curRoute.includes(mainNavMenu.about.title)
+			? mainNavMenu.about.title
+			: curRoute.includes(mainNavMenu.writing.title)
+			? mainNavMenu.writing.title
+			: curRoute.includes(mainNavMenu.tools.title)
+			? mainNavMenu.tools.title
+			: curRoute.includes(mainNavMenu.keeps.title)
+			? mainNavMenu.keeps.title
+			: curRoute.includes(mainNavMenu.work.title)
+			? mainNavMenu.work.title
+			: null;
 	return (
 		<>
 			<SideNavStyles {...props}>
-				<NavTitle>About</NavTitle>
-				{sideNavMenu.about.map((sideNavItem, index) => {
+				<NavTitle>{curSection}</NavTitle>
+				{Object.entries(sideNavMenu[curSection]).map(([key, sideNavItem]) => {
 					return (
-						<>
-							<SideNavLink key={index} href={sideNavItem.href}>
-								{sideNavItem.title}
-							</SideNavLink>
-						</>
+						<SideNavLink key={key} href={sideNavItem.href}>
+							{sideNavItem.title}
+						</SideNavLink>
 					);
 				})}
 			</SideNavStyles>

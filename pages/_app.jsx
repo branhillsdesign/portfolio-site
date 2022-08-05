@@ -1,6 +1,9 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { theme } from '../utils/ThemeConfig.jsx';
 import GoogleAnalytics from '@bradgarropy/next-google-analytics';
+import { Head } from 'next/document.js';
+import Link from 'next/link.js';
+
 
 const GlobalStyle = createGlobalStyle`
 *, *::before, *::after {
