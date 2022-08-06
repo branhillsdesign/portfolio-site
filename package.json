@@ -11,6 +11,7 @@
   "dependencies": {
     "@bradgarropy/next-google-analytics": "^1.0.2",
     "next": "12.2.3",
+    "next-seo": "^5.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll-horizontal": "^1.6.6",

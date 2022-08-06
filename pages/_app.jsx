@@ -1,6 +1,8 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { theme } from '../utils/ThemeConfig.jsx';
 import GoogleAnalytics from '@bradgarropy/next-google-analytics';
+import { DefaultSeo } from 'next-seo';
+
 
 const GlobalStyle = createGlobalStyle`
 *, *::before, *::after {
@@ -39,7 +41,34 @@ const GlobalStyle = createGlobalStyle`
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<>
+    <>
+      <DefaultSeo
+        openGraph={{
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://branhills.com/',
+          site_name: 'BranHills.com',
+          title: 'BranHills.com',
+          description: 'My name’s Bran. I’m a designer and life-long learner with a need to create. I’m currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis.',
+          images: [{
+            url: 'https://branhills.com/static/images/og-image.jpg',
+            width: 1200,
+            height: 630,
+            alt: 'BranHills.com',
+          },
+            {
+              url: 'https://branhills.com/static/images/og-image.jpg',
+              width: 1200,
+              height: 630,
+              alt: 'BranHills.com',
+          }]
+        }}
+        twitter={{
+          handle: '@branhillsdesign',
+          site: '@branhillsdesign',
+          cardType: 'summary_large_image',
+        }}
+      />
 			<GoogleAnalytics
 				measurementId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}
 			/>

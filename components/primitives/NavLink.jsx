@@ -8,8 +8,10 @@ const StyledNavLink = styled.a`
 	flex-direction: column;
 	align-items: center;
 	padding: 0.5rem 1rem;
-	color: ${({ href, currentPath }) =>
-		href === currentPath ? `${theme.dark.highContrast}` : `${theme.dark.dim}`};
+	color: ${({ href, currentPath, active, section }) =>
+		href === currentPath || active === section
+			? `${theme.dark.highContrast}`
+			: `${theme.dark.dim}`};
 	white-space: nowrap;
 	font: ${theme.text.labellarge};
 	transition: all 0.3s ease;
@@ -18,7 +20,8 @@ const StyledNavLink = styled.a`
 		display: block;
 		margin-top: 0.5rem;
 		border-radius: 0.125rem 0.125rem 0 0;
-		width: ${({ href, currentPath }) => (href === currentPath ? '2rem' : '0')};
+		width: ${({ href, currentPath, active, section }) =>
+			href === currentPath || active === section ? '2rem' : '0'};
 		height: 0.125rem;
 		background-color: ${theme.dark.main};
 	}
@@ -31,17 +34,19 @@ const StyledNavLink = styled.a`
 	}
 `;
 
-function NavLink({ children, href, router }) {
+function NavLink({ children, href, router, ...props }) {
 	const handleClick = (e) => {
 		e.preventDefault();
-    router.push(href);
+		router.push(href);
 	};
 	return (
 		<>
-      <StyledNavLink
+			<StyledNavLink
 				href={href}
 				onClick={handleClick}
-				currentPath={router.asPath}>
+				currentPath={router.asPath}
+				active={props.active}
+				section={props.section}>
 				{children}
 			</StyledNavLink>
 		</>

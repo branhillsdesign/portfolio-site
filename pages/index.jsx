@@ -19,10 +19,22 @@ import {
 	DesktopMainNav,
 	DesktopSideNav,
 } from '../components/layout/Navigation.jsx';
+import Head from 'next/head';
 
 export default function Home() {
 	return (
-    <>
+		<>
+			<Head>
+				<title>BranHills.com - About</title>
+				<meta
+					name='description'
+					content="My name’s Bran. I'm a designer and life-long learner with a
+							need to create. I'm currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis."
+				/>
+				<link rel='canonical' href='http://branhills.com/' />
+				<meta name='robots' content='index, follow' />
+				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+			</Head>
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
@@ -32,7 +44,7 @@ export default function Home() {
 				<Reel>
 					<BodyCopy>
 						{`My name’s Bran. I'm a designer and life-long learner with a
-							need to create. I'm currently the staff designer crafting the brand at the EdTech SaaS, BizLibrary.`}
+							need to create. I'm currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis.`}
 					</BodyCopy>
 					<BodyCopy>
 						{`Aside from my passion of design, I'm a huge Dune fan, a pretty rad

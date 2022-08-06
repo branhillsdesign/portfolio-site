@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
+import { withRouter } from 'next/router';
 
 const SideNavLinkStyles = styled.a`
 	cursor: pointer;
@@ -7,7 +8,8 @@ const SideNavLinkStyles = styled.a`
 	flex-direction: row;
 	align-items: center;
 	padding: 1rem 0;
-	color: ${theme.dark.dim};
+	color: ${({ href, currentPath }) =>
+		href === currentPath ? `${theme.dark.highContrast}` : `${theme.dark.dim}`};
 	white-space: nowrap;
 	text-transform: uppercase;
 	font: ${theme.text.allCaps};
@@ -18,11 +20,11 @@ const SideNavLinkStyles = styled.a`
 		margin-right: 0.5rem;
 		border-radius: 0 0.125rem 0.125rem 0;
 		width: 0.125rem;
-		height: 0;
+		height: ${({ href, currentPath, props }) => (href === currentPath ? '1rem' : '0')};
 		background-color: ${theme.dark.main};
 	}
 	&:hover {
-		color: ${theme.dark.highContrast};
+		color: ${theme.dark.mainsubtle};
 		&:before {
 			transition: all 0.3s ease;
 			height: 1rem;
@@ -30,10 +32,21 @@ const SideNavLinkStyles = styled.a`
 	}
 `;
 
-export const SideNavLink = (props) => {
+function SideNavLink({ children, href, router, ...props }) {
+	const handleClick = (e) => {
+		e.preventDefault();
+    router.push(href);
+	};
 	return (
 		<>
-			<SideNavLinkStyles {...props} />
+			<SideNavLinkStyles
+				href={href}
+				onClick={handleClick}
+        currentPath={router.asPath}>
+				{children}
+			</SideNavLinkStyles>
 		</>
 	);
-};
+}
+
+export default withRouter(SideNavLink);
