@@ -42,15 +42,13 @@ export default function Home() {
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
+					<BodyCopy>{`Yo, I'm Bran. Welcome to my brain.`}</BodyCopy>
 					<BodyCopy>
-						{`My name’s Bran. I'm a designer and life-long learner with a
-							need to create. I'm currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis.`}
+            This is supposed to be a paragraph of text telling you how {`I've `}
+            worked at giant tech companies. Spoiler alert: {`I haven't.`}
 					</BodyCopy>
 					<BodyCopy>
-						{`Aside from my passion of design, I'm a huge Dune fan, a pretty rad
-							dad of two baby boys, and an avid golfer. I grew up on a farm in
-							southeast Missouri and worked in the construction and retail
-							industries until I went back to university for design at age 30.`}
+						{`I have done a couple interesting things though. Create two wonderful human beings, married the love of my life, and learned how to work on helicopter engines - specifically the AH-64D Apache and UH-60 Blackhawk.`}
 					</BodyCopy>
 					<WorkHistory />
 					<ContentBlock gap='1.5rem'>
