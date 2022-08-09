@@ -32,6 +32,9 @@ const StyledNavLink = styled.a`
 			width: 2rem;
 		}
 	}
+	${theme.breakpoints.lg} {
+		padding: 0.5rem;
+	}
 `;
 
 function NavLink({ children, href, router, ...props }) {

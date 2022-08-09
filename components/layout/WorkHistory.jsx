@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
 import { Highlighter } from '../fonts/Highlighters';
 import { Spacer } from '../utils/Spacer';
-import Link from 'next/link';
-import { StyledLink } from '../primitives/StyledLink';
 
 const NavTitle = styled.div`
 	font: ${theme.text.h5};
@@ -29,7 +27,6 @@ const WorkItem = styled.div`
 	flex-direction: row;
 	align-items: center;
 	font: ${theme.text.labelmedium};
-	justify-content: space-between;
 	white-space: nowrap;
 	gap: 0.5rem;
 `;
@@ -51,7 +48,7 @@ const BeenPromoted = styled.div`
 
 const WorkHistoryWrapper = styled.div`
 	display: flex;
-	flex-direction: column;
+  flex-direction: column;
 `;
 
 export const WorkHistory = (props) => {
@@ -74,7 +71,7 @@ export const WorkHistory = (props) => {
 			{/* Promotion to Marketing Graphic Designer */}
 			<BeenPromoted marginTop='-0.15rem'>
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Marketing Graphic Designer
+					Marketing Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2020-22
@@ -84,7 +81,7 @@ export const WorkHistory = (props) => {
 			{/* Motion Designer */}
 			<BeenPromoted>
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Motion Graphic Designer
+					Motion Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2019-20
@@ -99,10 +96,10 @@ export const WorkHistory = (props) => {
 				</Highlighter>
 				<DottedLine />
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Designer
+					Principal
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
-					2018-19
+					2018-22
 				</Highlighter>
 			</WorkItem>
 			<Spacer />
@@ -128,7 +125,7 @@ export const WorkHistory = (props) => {
 					color={theme.dark.highContrast}>{`Champion's`}</Highlighter>
 				<DottedLine />
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Marketing Manager
+					Marketing Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2006-15
