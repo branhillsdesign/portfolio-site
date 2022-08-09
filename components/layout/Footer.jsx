@@ -10,6 +10,14 @@ const StyledFooter = styled.footer`
 	font: ${theme.text.tiny};
 	color: ${theme.dark.highContrast};
 	height: 2rem;
+  position: absolute;
+  bottom: 0;
+  background: ${theme.dark.bg00};
+  position: sticky;
+  width: 100%;
+  justify-content: space-around;
+  height: 4rem;
+  align-items: center;
 `;
 
 export const Footer = () => {
