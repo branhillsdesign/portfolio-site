@@ -45,32 +45,31 @@ export default function Home() {
 					<Spacer height='3rem' />
 				</PageHeading>
 				<NextImageWrapper>
-          <Image
-            objectFit='cover'
+					<Image
+						objectFit='cover'
 						src={laurenBranHillsChicagoPier}
 						alt='bran hills chicago'
 					/>
 				</NextImageWrapper>
 				<Spacer height='3rem' />
-				<BodyCopy>{`Yo, I'm Bran.`}</BodyCopy>
-				<Spacer />
+
 				<BodyCopy>
-					{`I'm a staff designer crafting our brand at`}
+					{`My name’s Bran. I'm a designer and life-long learner with a need to create. I'm currently the staff designer crafting the brand at the EdTech SaaS, `}
 					<InlineLink
 						href='https://www.bizlibrary.com/'
 						alt='Link to BizLibrary company website'
 						target='_blank'>
-						{` BizLibrary`}
+						{`BizLibrary.`}
 					</InlineLink>
-					, an EdTech company in St. Louis.
 				</BodyCopy>
 				<Spacer />
 				<BodyCopy>
-					{`Aside from designing, I'm a life-long learner with a need to create. I'm currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis.`}
+					{`Aside from my passion of design, I'm a huge Dune fan, a pretty rad dad of two baby boys, and an avid golfer. I grew up on a farm in southeast Missouri, joined the US Army and worked on helicopters with a great bunch of soldiers.`}
 				</BodyCopy>
-				<Spacer height='3rem'/>
-        <WorkHistory />
-        <Spacer height='3rem'/>
+				
+				<Spacer height='3rem' />
+				<WorkHistory />
+				<Spacer height='3rem' />
 
 				<Footer />
 			</PortfolioPageWrapper>
