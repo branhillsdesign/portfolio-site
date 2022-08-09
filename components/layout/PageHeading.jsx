@@ -4,6 +4,5 @@ import { theme } from '../../utils/ThemeConfig';
 export const PageHeading = styled.h1`
 	font: ${theme.text.display};
 	color: ${theme.dark.highContrast};
-	white-space: nowrap;
 	grid-area: 2/1/3/3;
 `;
