@@ -184,7 +184,7 @@ export default class ScrollHorizontal extends Component {
 
 		// Styles
 		const styles = {
-			gridArea: '3/3/4/4',
+			gridArea: '3/2/4/4',
 			position: 'relative',
 			overflowX: `hidden`,
 			...style,

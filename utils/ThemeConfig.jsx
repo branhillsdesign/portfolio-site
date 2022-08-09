@@ -87,9 +87,8 @@ export const theme = {
 	},
 	text: {
 		// Display Type Styles
-		display0: 'font-weight: 700; font-size: 6rem;',
-		display1: 'font-weight: 700; font-size: 4rem;',
-		display2: 'font-weight: 700; font-size: 3.5rem;',
+		display:
+			'font-weight: 700; font-size: calc(3rem + (96 - 32) * ((100vw - 375.98px) / (3440 - 375.98) ));',
 
 		// Heading Type Styles
 		h1: 'font-weight: 700; font-size: 2.5rem;',
@@ -136,11 +135,11 @@ export const theme = {
 			'box-shadow: 0px 0px 0px 4px hsla(221, 95%, 61%, 0.3), 0px 0.5px 4px 0px hsla(237, 18%, 23%, 0.32) inset;',
 	},
 	breakpoints: {
-		xs: '575.98px',
-		sm: '767.98px',
-		md: '991.98px',
-		lg: '1199.98px',
-		xl: '1919.98px',
-		ultra: '1920px',
+		xs: '@media only screen and (max-width: 575.98px)',
+		sm: '@media only screen and (max-width: 767.98px)',
+		md: '@media only screen and (max-width: 991.98px)',
+		lg: '@media only screen and (max-width: 1199.98px)',
+		xl: '@media only screen and (max-width: 1919.98px)',
+		ultra: '@media only screen and (min-width: 1920px)',
 	},
 };

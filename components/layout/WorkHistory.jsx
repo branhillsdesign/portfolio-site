@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
 import { Highlighter } from '../fonts/Highlighters';
 import { Spacer } from '../utils/Spacer';
-import Link from 'next/link';
-import { StyledLink } from '../primitives/Link';
 
 const NavTitle = styled.div`
 	font: ${theme.text.h5};
@@ -29,7 +27,6 @@ const WorkItem = styled.div`
 	flex-direction: row;
 	align-items: center;
 	font: ${theme.text.labelmedium};
-	justify-content: space-between;
 	white-space: nowrap;
 	gap: 0.5rem;
 `;
@@ -46,10 +43,11 @@ const BeenPromoted = styled.div`
 	display: flex;
 	justify-content: flex-end;
 	gap: 0.5rem;
+	margin-top: ${(props) => props.marginTop || ''};
 `;
 
 const WorkHistoryWrapper = styled.div`
-  display: flex;
+	display: flex;
   flex-direction: column;
 `;
 
@@ -60,11 +58,9 @@ export const WorkHistory = (props) => {
 
 			{/* Current Role at BizLibrary */}
 			<WorkItem>
-				<Highlighter>
-					<Link href='https://www.bizlibrary.com/'>BizLibrary</Link>
-				</Highlighter>
+				<Highlighter color={theme.dark.highContrast}>BizLibrary</Highlighter>
 				<DottedLine />
-				<Highlighter font={theme.text.small} color={theme.dark.highContrast}>
+				<Highlighter font={theme.text.small} color={theme.dark.dim}>
 					Staff Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
@@ -73,9 +69,9 @@ export const WorkHistory = (props) => {
 			</WorkItem>
 
 			{/* Promotion to Marketing Graphic Designer */}
-			<BeenPromoted>
+			<BeenPromoted marginTop='-0.15rem'>
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Marketing Graphic Designer
+					Marketing Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2020-22
@@ -85,7 +81,7 @@ export const WorkHistory = (props) => {
 			{/* Motion Designer */}
 			<BeenPromoted>
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Motion Graphic Designer
+					Motion Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2019-20
@@ -95,24 +91,26 @@ export const WorkHistory = (props) => {
 
 			{/* Previous Job */}
 			<WorkItem>
-				<Highlighter>Brandon Hills Design Co. </Highlighter>
+				<Highlighter color={theme.dark.highContrast}>
+					Brandon Hills Design Co.
+				</Highlighter>
 				<DottedLine />
-				<Highlighter font={theme.text.small} color={theme.dark.highContrast}>
-					Designer
+				<Highlighter font={theme.text.small} color={theme.dark.dim}>
+					Principal
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
-					2018-19
+					2018-22
 				</Highlighter>
 			</WorkItem>
 			<Spacer />
 
 			{/* Previous Job */}
 			<WorkItem>
-				<Highlighter>
-					<StyledLink href='http://www.signaturesigns-stl.com/'>Signature Signs</StyledLink>
+				<Highlighter color={theme.dark.highContrast}>
+					Signature Signs
 				</Highlighter>
 				<DottedLine />
-				<Highlighter font={theme.text.small} color={theme.dark.highContrast}>
+				<Highlighter font={theme.text.small} color={theme.dark.dim}>
 					Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
@@ -123,10 +121,11 @@ export const WorkHistory = (props) => {
 
 			{/* Previous Job */}
 			<WorkItem>
-				<Highlighter>{`Champion's`}</Highlighter>
+				<Highlighter
+					color={theme.dark.highContrast}>{`Champion's`}</Highlighter>
 				<DottedLine />
-				<Highlighter font={theme.text.small} color={theme.dark.highContrast}>
-					Marketing Manager
+				<Highlighter font={theme.text.small} color={theme.dark.dim}>
+					Marketing Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2006-15
@@ -136,9 +135,9 @@ export const WorkHistory = (props) => {
 
 			{/* Previous Job */}
 			<WorkItem>
-				<Highlighter>{`US Army`}</Highlighter>
+				<Highlighter color={theme.dark.highContrast}>{`US Army`}</Highlighter>
 				<DottedLine />
-				<Highlighter font={theme.text.small} color={theme.dark.highContrast}>
+				<Highlighter font={theme.text.small} color={theme.dark.dim}>
 					{`Helicopter Mechanic(15B)`}
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>

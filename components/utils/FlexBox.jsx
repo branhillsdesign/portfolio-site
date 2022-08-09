@@ -4,20 +4,22 @@ import { theme } from '../../utils/ThemeConfig';
 export const FlexBox = styled.div`
 	display: ${(props) => props.display || 'flex'};
 	flex-direction: ${(props) => props.flexDirection || 'row'};
-	justify-content: ${(props) => props.justifyContent || 'null'};
-	align-items: ${(props) => props.alignItems || 'null'};
-	gap: ${(props) => props.gap || 'null'};
-	background-color: ${(props) => props.backgroundColor || 'null'};
-	flex-grow: ${(props) => props.flexGrow || 'null'};
-	flex-shrink: ${(props) => props.flexShrink || 'null'};
-	flex-basis: ${(props) => props.flexBasis || 'null'};
-	min-width: ${(props) => props.minWidth || 'null'};
-	background-color: ${(props) => props.bg || 'null'};
-	padding: ${(props) => props.padding || 'null'};
+	justify-content: ${(props) => props.justifyContent || 'flex-start'};
+	align-items: ${(props) => props.alignItems || 'flex-start'};
+	gap: ${(props) => props.gap || '1rem'};
+	background-color: ${(props) => props.backgroundColor || 'transparent'};
+	flex-grow: ${(props) => props.flexGrow || '1'};
+	flex-shrink: ${(props) => props.flexShrink || '0'};
+	flex-basis: ${(props) => props.flexBasis || 'auto'};
+	min-width: ${(props) => props.minWidth || 'auto'};
+	background-color: ${(props) => props.bg || 'transparent'};
+	padding: ${(props) => props.padding || '0'};
 	max-width: ${(props) => props.maxWidth || 'null'};
-	flex-wrap: ${(props) => props.flexWrap || 'null'};
+  width: ${(props) => props.width || 'auto'};
+  height: ${(props) => props.height || 'auto'};
+	flex-wrap: ${(props) => props.flexWrap || 'nowrap'};
 	box-sizing: ${(props) => props.boxSizing || 'inherit'};
-  border-radius: ${(props) => props.borderRadius || 'null'};
+  border-radius: ${(props) => props.borderRadius || '0'};
 
 	> * & {
 		margin-block: 0;

@@ -48,8 +48,8 @@ function MyApp({ Component, pageProps }) {
           locale: 'en_US',
           url: 'https://branhills.com/',
           site_name: 'BranHills.com',
-          title: 'BranHills.com',
-          description: 'My name’s Bran. I’m a designer and life-long learner with a need to create. I’m currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis.',
+          title: `Bran Hills, designer and tinker of things`,
+          description: 'My name’s Bran. I’m a designer and life-long learner with a need to create. I’m currently the staff designer crafting our brand at BizLibrary, an EdTech saas company in St. Louis.',
           images: [{
             url: 'https://branhills.com/static/images/og-image.jpg',
             width: 1200,

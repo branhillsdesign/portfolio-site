@@ -20,6 +20,7 @@ import {
 	DesktopSideNav,
 } from '../components/layout/Navigation.jsx';
 import Head from 'next/head';
+import { InlineLink } from '../components/fonts/InlineLink.jsx';
 
 export default function Home() {
 	return (
@@ -38,19 +39,22 @@ export default function Home() {
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
-					Thank you for being <Highlighter>here.</Highlighter>
+					{`🚧 `} Under<Highlighter> Construction</Highlighter>
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
+					<BodyCopy>{`Yo, I'm Bran. Welcome to my brain.`}</BodyCopy>
 					<BodyCopy>
-						{`My name’s Bran. I'm a designer and life-long learner with a
-							need to create. I'm currently the staff designer crafting our brand BizLibrary, an EdTech saas company in St. Louis.`}
+            {`I'm a staff designer crafting our brand at`}
+						<InlineLink
+							href='https://www.bizlibrary.com/'
+							alt='Link to BizLibrary company website'
+							target='_blank'>
+							{` BizLibrary`}
+						</InlineLink>, an EdTech company in St. Louis.
 					</BodyCopy>
 					<BodyCopy>
-						{`Aside from my passion of design, I'm a huge Dune fan, a pretty rad
-							dad of two baby boys, and an avid golfer. I grew up on a farm in
-							southeast Missouri and worked in the construction and retail
-							industries until I went back to university for design at age 30.`}
+						{`This website is my brain. It's where I track my work, thoughts, ideas, and life experiences. It's also where I'm learning and experimenting with new things.`}
 					</BodyCopy>
 					<WorkHistory />
 					<ContentBlock gap='1.5rem'>

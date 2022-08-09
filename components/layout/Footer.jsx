@@ -1,25 +1,50 @@
 import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig';
-import { StyledLink } from '../primitives/Link';
+import { StyledLink } from '../primitives/StyledLink';
 
 const StyledFooter = styled.footer`
-  grid-area: 4/2/5/3;
-  align-self: center;
+	grid-area: 4/1/5/3;
+	align-self: center;
 	display: flex;
-  gap: 1rem;
-  font: ${theme.text.tiny};
-  color: ${theme.dark.highContrast};
-  padding-right: 5vw;
+	gap: 1rem;
+	font: ${theme.text.tiny};
+	color: ${theme.dark.highContrast};
+	height: 2rem;
 `;
 
-export const Footer = (props) => {
+export const Footer = () => {
 	return (
 		<>
 			<StyledFooter>
-				<StyledLink href=''>LinkedIn</StyledLink>
-				<StyledLink href=''>Email</StyledLink>
-				<StyledLink href=''>Figma</StyledLink>
-				<StyledLink href=''>Twitter</StyledLink>
+				<StyledLink
+					color={theme.dark.main}
+					href='https://www.linkedin.com/in/branhillsdesign/'
+					target='_blank'
+					rel='noopener noreferrer'>
+					LinkedIn
+				</StyledLink>
+				<StyledLink
+					color={theme.dark.main}
+          href='mailto: brandon@branhills.com'
+          subject='Hello from branhills.com!'
+					target='_blank'
+					rel='noopener noreferrer'>
+					Email
+				</StyledLink>
+				<StyledLink
+					color={theme.dark.main}
+					href='https://www.figma.com/@branhills'
+					target='_blank'
+					rel='noopener noreferrer'>
+					Figma
+				</StyledLink>
+				<StyledLink
+					color={theme.dark.main}
+					href='https://twitter.com/branhillsdesign'
+					target='_blank'
+					rel='noopener noreferrer'>
+					Twitter
+				</StyledLink>
 			</StyledFooter>
 		</>
 	);

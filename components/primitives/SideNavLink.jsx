@@ -32,7 +32,7 @@ const SideNavLinkStyles = styled.a`
 	}
 `;
 
-function SideNavLink({ children, href, router, ...props }) {
+function SideNavLink({ children, href, router }) {
 	const handleClick = (e) => {
 		e.preventDefault();
     router.push(href);

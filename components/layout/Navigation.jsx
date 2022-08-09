@@ -150,19 +150,12 @@ export const sideNavMenu = {
 };
 
 // Desktop Main Nav Layout Styles
-const NavWrapper = styled.div`
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-left: -1rem;
-	grid-area: 1/2/2/4;
-	padding-right: 5vw;
-`;
-
 const MainNavStyles = styled.nav`
-	display: flex;
-	flex-direction: row;
 	text-transform: capitalize;
+	align-self: center;
+	display: flex;
+	grid-area: 1/1/2/3;
+  justify-content: flex-start;
 `;
 
 // Create Main Navigation Menu from JSON Above
@@ -187,27 +180,20 @@ export const DesktopMainNav = (props) => {
 
 	return (
 		<>
-			<NavWrapper>
-				<MainNavStyles {...props}>
-					{Object.entries(mainNavMenu).map(([key, mainNavItem]) => {
-						return (
-							<NavLink
-								{...props}
-								key={key}
-                href={mainNavItem.href}
-                section={mainNavItem.section}
-								active={curSection}>
-								{mainNavItem.title}
-							</NavLink>
-						);
-					})}
-				</MainNavStyles>
-				<Icon.MakerOsIcon16Px
-					color={theme.dark.main}
-					width='1.2rem'
-					height='1.2rem'
-				/>
-			</NavWrapper>
+			<MainNavStyles {...props}>
+				{Object.entries(mainNavMenu).map(([key, mainNavItem]) => {
+					return (
+						<NavLink
+							{...props}
+							key={key}
+							href={mainNavItem.href}
+							section={mainNavItem.section}
+							active={curSection}>
+							{mainNavItem.title}
+						</NavLink>
+					);
+				})}
+			</MainNavStyles>
 		</>
 	);
 };
@@ -216,8 +202,7 @@ export const DesktopMainNav = (props) => {
 const SideNavStyles = styled.nav`
 	display: flex;
 	flex-direction: column;
-	grid-area: 3/2/4/4;
-	max-width: 17rem;
+	grid-area: 3/1/4/2;
 `;
 
 const NavTitle = styled.div`
