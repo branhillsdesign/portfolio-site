@@ -76,7 +76,7 @@ export const WorkHistory = (props) => {
 					Marketing Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
-					2020-22
+					2020-21
 				</Highlighter>
 			</BeenPromoted>
 
