@@ -7,17 +7,10 @@ const StyledFooter = styled.footer`
 	align-self: center;
 	display: flex;
 	gap: 1rem;
-	font: ${theme.text.tiny};
+	${theme.text.tiny};
 	color: ${theme.dark.highContrast};
 	height: 2rem;
-  position: absolute;
-  bottom: 0;
-  background: ${theme.dark.bg00};
-  position: sticky;
-  width: 100%;
-  justify-content: space-around;
-  height: 4rem;
-  align-items: center;
+  padding-top: 1.5rem;
 `;
 
 export const Footer = () => {

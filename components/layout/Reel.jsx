@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import ScrollHorizontal from '../../utils/HorizontalScroll.jsx';
 import { theme } from '../../utils/ThemeConfig';
 
-const StyledReel = styled.main`
+export const StyledReel = styled.main`
 	grid-area: 3/2/4/3;
 	display: flex;
 	flex-direction: column;
@@ -10,11 +10,28 @@ const StyledReel = styled.main`
 	max-height: 100%;
 	gap: 1.5rem;
 	& > div {
-		width: clamp(424px, 20vw, 66ch);
+		max-width: 400px;
+    min-width: 320px;
 	} 
   ${theme.breakpoints.lg} {
-    grid-area: 3/1/4/2;
-    
+    display: none;
+  }
+`;
+
+export const MobileReel = styled.main`
+	grid-area: 3/1/4/2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+	${theme.breakpoints.ultra} {
+		display: none;
+	}
+	${theme.breakpoints.xl} {
+		display: none;
+	}
+  ${theme.breakpoints.lg} {
+    display: block;
   }
 `;
 
@@ -23,7 +40,8 @@ export const Reel = (props) => {
 		<>
 			<ScrollHorizontal reverseScroll={true}>
 				<StyledReel>{props.children}</StyledReel>
-			</ScrollHorizontal>
+      </ScrollHorizontal>
+      <MobileReel>{props.children}</MobileReel>
 		</>
 	);
 };

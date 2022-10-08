@@ -88,7 +88,7 @@ export const theme = {
 	text: {
 		// Display Type Styles
 		display:
-			'font-weight: 700; font-size: calc(3rem + (96 - 32) * ((100vw - 375.98px) / (3440 - 375.98) ));',
+			'font-weight: 900; font-size: calc(3rem + (96 - 32) * ((100vw - 375.98px) / (3440 - 375.98) ));',
 
 		// Heading Type Styles
 		h1: 'font-weight: 700; font-size: 2.5rem;',
@@ -96,7 +96,7 @@ export const theme = {
 		h3: 'font-weight: 700; font-size: 1.75rem;',
 		h4: 'font-weight: 700; font-size: 1.5rem;',
 		h5: 'font-weight: 700; font-size: 1.25rem;',
-		h6: 'font-weight: 700; font-size: 1rem;',
+    h6: 'font-weight: 700; font-size: 1rem;',
 
 		// Paragraph Type Styles
 		p1: 'font-weight: 400; font-size: 1.125rem;',

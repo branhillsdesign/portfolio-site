@@ -13,9 +13,7 @@ export default function Writing() {
 		<>
 			<PageWrapper>
 				<DesktopMainNav />
-				<PageHeading>
-					Under<Highlighter>Construction</Highlighter>
-				</PageHeading>
+				<PageHeading>Page Heading</PageHeading>
 				<DesktopSideNav />
 				<Reel></Reel>
 				<Footer />

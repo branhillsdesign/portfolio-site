@@ -7,13 +7,13 @@ const StyledNavLink = styled.a`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0.5rem 1rem;
+	padding: 0 1rem;
 	color: ${({ href, currentPath, active, section }) =>
 		href === currentPath || active === section
 			? `${theme.dark.highContrast}`
 			: `${theme.dark.dim}`};
 	white-space: nowrap;
-	font: ${theme.text.labellarge};
+	${theme.text.labellarge};
 	transition: all 0.3s ease;
 	&:after {
 		content: '';
@@ -33,7 +33,7 @@ const StyledNavLink = styled.a`
 		}
 	}
 	${theme.breakpoints.lg} {
-		padding: 0.5rem;
+		padding: 0;
 	}
 `;
 
