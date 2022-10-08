@@ -14,7 +14,7 @@ const SideNavLinkStyles = styled.a`
 		href === currentPath ? `${theme.dark.highContrast}` : `${theme.dark.dim}`};
 	white-space: nowrap;
 	text-transform: uppercase;
-	font: ${theme.text.allCaps};
+	${theme.text.allCaps};
 	transition: all 0.3s ease;
 	&:before {
 		content: '';

@@ -13,7 +13,7 @@ const StyledNavLink = styled.a`
 			? `${theme.dark.highContrast}`
 			: `${theme.dark.dim}`};
 	white-space: nowrap;
-	font: ${theme.text.labellarge};
+	${theme.text.labellarge};
 	transition: all 0.3s ease;
 	&:after {
 		content: '';

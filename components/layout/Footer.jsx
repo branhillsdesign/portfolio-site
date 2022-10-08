@@ -7,7 +7,7 @@ const StyledFooter = styled.footer`
 	align-self: center;
 	display: flex;
 	gap: 1rem;
-	font: ${theme.text.tiny};
+	${theme.text.tiny};
 	color: ${theme.dark.highContrast};
 	height: 2rem;
   padding-top: 1.5rem;
