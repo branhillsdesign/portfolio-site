@@ -11,6 +11,14 @@ const StyledFooter = styled.footer`
 	color: ${theme.dark.highContrast};
 	height: 2rem;
   padding-top: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  background: ${theme.dark.bg00};
+  position: sticky;
+  width: 100%;
+  justify-content: space-around;
+  height: 4rem;
+  align-items: center;
 `;
 
 export const Footer = () => {

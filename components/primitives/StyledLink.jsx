@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { theme } from '../../utils/ThemeConfig.jsx';
 
 export const StyledLink = styled.a`
+	cursor: pointer;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
