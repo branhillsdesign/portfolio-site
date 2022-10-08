@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { theme } from '../../utils/ThemeConfig';
 
 export const ContentBlock = styled.div`
 	display: flex;
@@ -7,7 +8,6 @@ export const ContentBlock = styled.div`
   height: 100%;
   width: 100%;
   & > * {
-    height: 50%;
     width: auto;
   }
 `;

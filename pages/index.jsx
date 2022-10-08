@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
@@ -21,6 +23,7 @@ import {
 } from '../components/layout/Navigation.jsx';
 import Head from 'next/head';
 import { InlineLink } from '../components/fonts/InlineLink.jsx';
+import { theme } from '../utils/ThemeConfig';
 
 export default function Home() {
 	return (
@@ -39,56 +42,53 @@ export default function Home() {
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
-					{`🚧 `} Under<Highlighter> Construction</Highlighter>
+					Thanks for being <Highlighter>here.</Highlighter>
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					<BodyCopy>{`Yo, I'm Bran. Welcome to my brain.`}</BodyCopy>
-					<BodyCopy>
-            {`I'm a staff designer crafting our brand at`}
-						<InlineLink
-							href='https://www.bizlibrary.com/'
-							alt='Link to BizLibrary company website'
-							target='_blank'>
-							{` BizLibrary`}
-						</InlineLink>, an EdTech company in St. Louis.
-					</BodyCopy>
-					<BodyCopy>
-						{`This website is my brain. It's where I track my work, thoughts, ideas, and life experiences. It's also where I'm learning and experimenting with new things.`}
-					</BodyCopy>
-					<WorkHistory />
 					<ContentBlock gap='1.5rem'>
-						<NextImageWrapper>
-							<Image src={chicagoTrip} layout='fill' alt='' objectFit='cover' />
-						</NextImageWrapper>
-						<NextImageWrapper>
-							<Image
-								src={laurenBranHillsChicagoPier}
-								layout='fill'
-								alt=''
-								objectFit='cover'
-							/>
-						</NextImageWrapper>
+						<BodyCopy>{`Yo, I'm Bran. Welcome to my brain.`}</BodyCopy>
+						<BodyCopy>
+							{`I'm a staff designer crafting our brand at`}
+							<InlineLink
+								href='https://www.bizlibrary.com/'
+								alt='Link to BizLibrary company website'
+								target='_blank'>
+                <Highlighter
+                  textDecoration='underline'
+									color={theme.dark.mainsubtle}>{` BizLibrary`}</Highlighter>
+							</InlineLink>
+							, an EdTech company in St. Louis.
+						</BodyCopy>
+						<BodyCopy>
+							{`This website is where I track my work, thoughts, ideas, and life experiences. It's also where I'm learning and experimenting with new things, so take a look around and chat with me about stuff @branhillsdesign`}
+						</BodyCopy>
+						<WorkHistory />
 					</ContentBlock>
+					<NextImageWrapper>
+						<Image src={chicagoTrip} layout='fill' alt='' objectFit='cover' />
+					</NextImageWrapper>
+					<NextImageWrapper>
+						<Image
+							src={laurenBranHillsChicagoPier}
+							layout='fill'
+							alt=''
+							objectFit='cover'
+						/>
+					</NextImageWrapper>
+
 					<NextImageWrapper>
 						<Image src={harrison} layout='fill' alt='' objectFit='cover' />
 					</NextImageWrapper>
 					<NextImageWrapper>
 						<Image src={barrett} layout='fill' alt='' objectFit='cover' />
 					</NextImageWrapper>
-					<ContentBlock gap='1.5rem'>
-						<NextImageWrapper>
-							<Image
-								src={branHarryFish}
-								layout='fill'
-								alt=''
-								objectFit='cover'
-							/>
-						</NextImageWrapper>
-						<NextImageWrapper>
-							<Image src={laurenBarry} layout='fill' alt='' objectFit='cover' />
-						</NextImageWrapper>
-					</ContentBlock>
+					<NextImageWrapper>
+						<Image src={branHarryFish} layout='fill' alt='' objectFit='cover' />
+					</NextImageWrapper>
+					<NextImageWrapper>
+						<Image src={laurenBarry} layout='fill' alt='' objectFit='cover' />
+					</NextImageWrapper>
 					<Spacer width='1.5rem' />
 				</Reel>
 				<Footer />

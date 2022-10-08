@@ -7,7 +7,7 @@ const StyledNavLink = styled.a`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0.5rem 1rem;
+	padding: 0 1rem;
 	color: ${({ href, currentPath, active, section }) =>
 		href === currentPath || active === section
 			? `${theme.dark.highContrast}`
@@ -33,7 +33,7 @@ const StyledNavLink = styled.a`
 		}
 	}
 	${theme.breakpoints.lg} {
-		padding: 0.5rem;
+		padding: 0;
 	}
 `;
 

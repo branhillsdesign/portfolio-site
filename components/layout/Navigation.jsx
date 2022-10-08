@@ -156,6 +156,10 @@ const MainNavStyles = styled.nav`
 	display: flex;
 	grid-area: 1/1/2/3;
   justify-content: flex-start;
+  ${theme.breakpoints.lg} {
+    justify-content: space-between;
+    padding-right: 5vw;
+  }
 `;
 
 // Create Main Navigation Menu from JSON Above
@@ -203,10 +207,17 @@ const SideNavStyles = styled.nav`
 	display: flex;
 	flex-direction: column;
 	grid-area: 3/1/4/2;
+	${theme.breakpoints.lg} {
+		grid-area: 2/2/4/3;
+    flex-direction: row-reverse;
+    rotate: 270deg;
+    align-self: flex-start;
+    gap: 2rem;
+	}
 `;
 
 const NavTitle = styled.div`
-	font: ${theme.text.h5};
+	${theme.text.h5};
 	color: ${theme.dark.highContrast};
 	display: flex;
 	flex-direction: row;
@@ -222,6 +233,10 @@ const NavTitle = styled.div`
 		width: 100%;
 		background-color: ${theme.dark.main};
 		height: 0.125rem;
+	}
+	${theme.breakpoints.lg} {
+    margin-bottom: 0;
+    margin-left: .5rem;
 	}
 `;
 

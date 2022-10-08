@@ -14,7 +14,7 @@ export default function Keeps() {
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
-					Under<Highlighter>Construction</Highlighter>
+					Page Heading
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel></Reel>

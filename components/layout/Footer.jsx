@@ -10,6 +10,7 @@ const StyledFooter = styled.footer`
 	font: ${theme.text.tiny};
 	color: ${theme.dark.highContrast};
 	height: 2rem;
+  padding-top: 1.5rem;
 `;
 
 export const Footer = () => {

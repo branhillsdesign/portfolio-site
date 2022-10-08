@@ -4,18 +4,18 @@ import { Highlighter } from '../fonts/Highlighters';
 import { Spacer } from '../utils/Spacer';
 
 const NavTitle = styled.div`
-	font: ${theme.text.h5};
+	${theme.text.h5};
 	color: ${theme.dark.highContrast};
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 	white-space: nowrap;
 	&:after {
 		margin-left: 1rem;
 		content: '';
 		display: block;
-		min-width: 3rem;
+		min-width: 1rem;
 		width: 100%;
 		background-color: ${theme.dark.main};
 		height: 0.125rem;
@@ -92,7 +92,7 @@ export const WorkHistory = (props) => {
 			{/* Previous Job */}
 			<WorkItem>
 				<Highlighter color={theme.dark.highContrast}>
-					Brandon Hills Design Co.
+					Bran Hills Design
 				</Highlighter>
 				<DottedLine />
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
@@ -125,7 +125,7 @@ export const WorkHistory = (props) => {
 					color={theme.dark.highContrast}>{`Champion's`}</Highlighter>
 				<DottedLine />
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					Marketing Designer
+					Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2006-15
@@ -138,7 +138,7 @@ export const WorkHistory = (props) => {
 				<Highlighter color={theme.dark.highContrast}>{`US Army`}</Highlighter>
 				<DottedLine />
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
-					{`Helicopter Mechanic(15B)`}
+					{`Helicopter Mechanic`}
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
 					2007-13
