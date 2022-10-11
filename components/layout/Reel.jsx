@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import ScrollHorizontal from '../../utils/HorizontalScroll.jsx';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 
 export const StyledReel = styled.main`
 	grid-area: 3/2/4/3;

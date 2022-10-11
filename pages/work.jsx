@@ -13,7 +13,7 @@ export default function Tools() {
 		<>
 			<PageWrapper>
 				<DesktopMainNav />
-				<PageHeading>Page Heading</PageHeading>
+				<PageHeading>My body of <Highlighter>work</Highlighter>.</PageHeading>
 				<DesktopSideNav />
 				<Reel></Reel>
 				<Footer />

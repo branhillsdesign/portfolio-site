@@ -9,6 +9,7 @@ import {
 	DesktopMainNav,
 	DesktopSideNav,
 } from '../../components/layout/Navigation.jsx';
+import golfClubs from '../api/golfclubs.json'
 
 export default function Golf() {
 	return (
@@ -20,14 +21,18 @@ export default function Golf() {
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					<NextImageWrapper>
-						<Image
-							src='https://covers.openlibrary.org/b/isbn/059309932X.jpg'
-							layout='fill'
-							alt='Dune book Cover'
-							quality={100}
-						/>
-					</NextImageWrapper>
+					{Object.entries(golfClubs).map(([key, clubData]) => {
+						return (
+							<>
+								<h4 key={key}>{clubData.type}</h4>
+								<p key={key}>{clubData.brand}</p>
+								<p key={key}>{clubData.loft}</p>
+								<p key={key}>{clubData.carry}</p>
+								<p key={key}>{clubData.actual}</p>
+								<p key={key}>{clubData.name}</p>
+							</>
+						);
+					})}
 				</Reel>
 				<Footer />
 			</PageWrapper>

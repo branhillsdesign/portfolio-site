@@ -1,0 +1,114 @@
+{
+	"1": {
+		"type": "driver",
+		"name": "r1",
+		"brand": "taylormade",
+		"loft": 10.5,
+		"carry": 245,
+		"actual": 260
+	},
+	"2": {
+		"type": "3h",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 19,
+		"carry": 230,
+		"actual": 245
+	},
+	"3": {
+		"type": "4h",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 22,
+		"carry": 215,
+		"actual": 230
+	},
+	"4": {
+		"type": "5i",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 21,
+		"carry": 200,
+		"actual": 215
+	},
+	"5": {
+		"type": "6i",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 24,
+		"carry": 180,
+		"actual": 195
+	},
+	"6": {
+		"type": "7i",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 28,
+		"carry": 165,
+		"actual": 180
+	},
+	"7": {
+		"type": "8i",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 32,
+		"carry": 150,
+		"actual": 165
+	},
+	"8": {
+		"type": "9i",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 37,
+		"carry": 140,
+		"actual": 150
+	},
+	"9": {
+		"type": "pw",
+		"name": "211",
+		"brand": "pxg",
+		"loft": 42,
+		"carry": 130,
+		"actual": 140
+	},
+	"10": {
+		"type": "gw",
+		"name": "vokey sm7",
+		"brand": "titleist",
+		"loft": 48,
+		"carry": 115,
+		"actual": 125
+	},
+	"11": {
+		"type": "gw",
+		"name": "vokey sm7",
+		"brand": "titleist",
+		"loft": 52,
+		"carry": 105,
+		"actual": 115
+	},
+	"12": {
+		"type": "sw",
+		"name": "vokey sm7",
+		"brand": "titleist",
+		"loft": 56,
+		"carry": 100,
+		"actual": 105
+	},
+	"13": {
+		"type": "lw",
+		"name": "vokey sm7",
+		"brand": "titleist",
+		"loft": 60,
+		"carry": 90,
+		"actual": 95
+	},
+	"14": {
+		"type": "putter",
+		"name": "white hot",
+		"brand": "odyssey",
+		"loft": 3,
+		"carry": 1,
+		"actual": 7
+	}
+}

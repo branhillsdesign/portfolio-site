@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 import { StyledLink } from '../primitives/StyledLink';
 
 const StyledFooter = styled.footer`

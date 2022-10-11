@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 
 export const PageHeading = styled.h1`
 	${theme.text.display};

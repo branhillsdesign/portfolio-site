@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../../components/layout/PageHeading.jsx';
 import { Highlighter } from '../../components/fonts/Highlighters.jsx';
@@ -7,26 +9,27 @@ import {
 	DesktopMainNav,
 	DesktopSideNav,
 } from '../../components/layout/Navigation.jsx';
-import movies from '../api/movies.json'
+import bookmarks from '../api/bookmarks.json';
 
-export default function Movies() {
+export default function articles() {
 	return (
 		<>
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
-					My <Highlighter>Top Ten</Highlighter> of all time.
+					Apps we <Highlighter>Love</Highlighter>.
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					{Object.entries(movies).map(([key, movieItem]) => {
-						return (
-							<>
-								<h4 key={key}>{movieItem.Title}</h4>
-								<p key={key}>{movieItem.URL}</p>
-								<p key={key}>{movieItem['Release Date']}</p>
-							</>
-						);
+					{Object.entries(bookmarks).map(([key, bookmark]) => {
+						if (bookmark.tags.includes('Article')) {
+							return (
+								<>
+									<h4 key={key}>{bookmark.name}</h4>
+									<p key={key}>{bookmark.link}</p>
+								</>
+							);
+						}
 					})}
 				</Reel>
 				<Footer />

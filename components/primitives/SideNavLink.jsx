@@ -1,7 +1,7 @@
 /** @format */
 
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 import { withRouter } from 'next/router';
 
 const SideNavLinkStyles = styled.a`
