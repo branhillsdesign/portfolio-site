@@ -21,7 +21,7 @@ import {
 } from '../components/layout/Navigation.jsx';
 import Head from 'next/head';
 import { InlineLink } from '../components/fonts/InlineLink.jsx';
-import { theme } from '../utils/ThemeConfig';
+import { theme } from '../components/utils/ThemeConfig';
 
 export default function Home() {
 	return (
