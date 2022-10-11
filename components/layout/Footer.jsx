@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { theme } from '../utils/ThemeConfig';
-import { StyledLink } from '../primitives/StyledLink';
+import { theme } from '../utils/ThemeConfig.jsx';
+import { StyledLink } from '../primitives/StyledLink.jsx';
 
 const StyledFooter = styled.footer`
 	grid-area: 4/1/5/3;
