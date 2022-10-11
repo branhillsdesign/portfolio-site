@@ -22,6 +22,7 @@ import {
 import Head from 'next/head';
 import { InlineLink } from '../components/fonts/InlineLink.jsx';
 import { theme } from '../components/utils/ThemeConfig';
+import { PortfolioPageWrapper } from '../components/layout/PortfolioPageWrapper.jsx';
 
 export default function Home() {
 	return (
@@ -37,60 +38,42 @@ export default function Home() {
 				<meta name='robots' content='index, follow' />
 				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 			</Head>
-			<PageWrapper>
-				<DesktopMainNav />
+			<PortfolioPageWrapper>
+				<Spacer height='3rem' />
 				<PageHeading>
 					Thanks for being <Highlighter>here</Highlighter>.
+					{`👋 `} Thanks for being<Highlighter> here.</Highlighter>
+					<Spacer height='3rem' />
 				</PageHeading>
-				<DesktopSideNav />
-				<Reel>
-					<ContentBlock gap='1.5rem'>
-						<BodyCopy>{`Yo, I'm Bran. Welcome to my brain.`}</BodyCopy>
-						<BodyCopy>
-							{`I'm a staff designer crafting our brand at`}
-							<InlineLink
-								href='https://www.bizlibrary.com/'
-								alt='Link to BizLibrary company website'
-								target='_blank'>
-                <Highlighter
-                  textDecoration='underline'
-									color={theme.dark.mainsubtle}>{` BizLibrary`}</Highlighter>
-							</InlineLink>
-							, an EdTech company in St. Louis.
-						</BodyCopy>
-						<BodyCopy>
-							{`This website is where I track my work, thoughts, ideas, and life experiences. It's also where I'm learning and experimenting with new things, so take a look around and chat with me about stuff @branhillsdesign`}
-						</BodyCopy>
-						<WorkHistory />
-					</ContentBlock>
-					<NextImageWrapper>
-						<Image src={chicagoTrip} layout='fill' alt='' objectFit='cover' />
-					</NextImageWrapper>
-					<NextImageWrapper>
-						<Image
-							src={laurenBranHillsChicagoPier}
-							layout='fill'
-							alt=''
-							objectFit='cover'
-						/>
-					</NextImageWrapper>
+				<NextImageWrapper>
+					<Image
+						objectFit='cover'
+						src={laurenBranHillsChicagoPier}
+						alt='bran hills chicago'
+					/>
+				</NextImageWrapper>
+				<Spacer height='3rem' />
 
-					<NextImageWrapper>
-						<Image src={harrison} layout='fill' alt='' objectFit='cover' />
-					</NextImageWrapper>
-					<NextImageWrapper>
-						<Image src={barrett} layout='fill' alt='' objectFit='cover' />
-					</NextImageWrapper>
-					<NextImageWrapper>
-						<Image src={branHarryFish} layout='fill' alt='' objectFit='cover' />
-					</NextImageWrapper>
-					<NextImageWrapper>
-						<Image src={laurenBarry} layout='fill' alt='' objectFit='cover' />
-					</NextImageWrapper>
-					<Spacer width='1.5rem' />
-				</Reel>
+				<BodyCopy>
+					{`My name’s Bran. I'm a designer and life-long learner with a need to create. I'm currently the staff designer crafting the brand at the EdTech SaaS, `}
+					<InlineLink
+						href='https://www.bizlibrary.com/'
+						alt='Link to BizLibrary company website'
+						target='_blank'>
+						{`BizLibrary.`}
+					</InlineLink>
+				</BodyCopy>
+				<Spacer />
+				<BodyCopy>
+					{`Aside from my passion of design, I'm a huge Dune fan, a pretty rad dad of two baby boys, and an avid golfer. I grew up on a farm in southeast Missouri, joined the US Army and worked on helicopters with a great bunch of soldiers.`}
+				</BodyCopy>
+				
+				<Spacer height='3rem' />
+				<WorkHistory />
+				<Spacer height='3rem' />
+
 				<Footer />
-			</PageWrapper>
+			</PortfolioPageWrapper>
 		</>
 	);
 }

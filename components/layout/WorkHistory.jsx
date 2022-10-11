@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { theme } from '../utils/ThemeConfig';
 import { Highlighter } from '../fonts/Highlighters';
+import { InlineLink } from '../fonts/InlineLink';
+import { StyledLink } from '../primitives/StyledLink';
 import { Spacer } from '../utils/Spacer';
 
 const NavTitle = styled.div`
@@ -58,7 +60,7 @@ export const WorkHistory = (props) => {
 
 			{/* Current Role at BizLibrary */}
 			<WorkItem>
-				<Highlighter color={theme.dark.highContrast}>BizLibrary</Highlighter>
+				<StyledLink href='https://www.bizlibrary.com/'><Highlighter color={theme.dark.highContrast}>BizLibrary</Highlighter></StyledLink>
 				<DottedLine />
 				<Highlighter font={theme.text.small} color={theme.dark.dim}>
 					Staff Designer
@@ -74,7 +76,7 @@ export const WorkHistory = (props) => {
 					Marketing Designer
 				</Highlighter>
 				<Highlighter font={theme.text.small} color={theme.dark.subtle}>
-					2020-22
+					2020-21
 				</Highlighter>
 			</BeenPromoted>
 
