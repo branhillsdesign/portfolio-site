@@ -1,5 +1,3 @@
-/** @format */
-
 import { PageWrapper } from '../../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../../components/layout/PageHeading.jsx';
 import { Highlighter } from '../../components/fonts/Highlighters.jsx';

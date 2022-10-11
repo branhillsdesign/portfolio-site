@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
 
 export const FlexBox = styled.div`
 	display: ${(props) => props.display || 'flex'};

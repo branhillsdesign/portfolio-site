@@ -1,7 +1,6 @@
 import React from 'react';
 import NavLink from '../primitives/NavLink';
 import SideNavLink from '../primitives/SideNavLink';
-import * as Icon from '../../assets/icons/Duotone/Index';
 import styled from 'styled-components';
 import { theme } from '../utils/ThemeConfig';
 import { useRouter } from 'next/router';
