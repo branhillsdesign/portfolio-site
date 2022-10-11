@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 
 export const PageWrapper = styled.div`
 	display: grid;

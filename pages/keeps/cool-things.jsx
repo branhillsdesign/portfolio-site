@@ -7,29 +7,27 @@ import {
 	DesktopMainNav,
 	DesktopSideNav,
 } from '../../components/layout/Navigation.jsx';
-import golfClubs from '../api/golfclubs.json'
+import bookmarks from '../api/bookmarks.json';
 
-export default function Golf() {
+export default function coolThings() {
 	return (
 		<>
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
-					The more I practice, the <Highlighter>luckier</Highlighter> I get.
+					Apps we <Highlighter>Love</Highlighter>.
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					{Object.entries(golfClubs).map(([key, clubData]) => {
-						return (
-							<>
-								<h4 key={key}>{clubData.type}</h4>
-								<p key={key}>{clubData.brand}</p>
-								<p key={key}>{clubData.loft}</p>
-								<p key={key}>{clubData.carry}</p>
-								<p key={key}>{clubData.actual}</p>
-								<p key={key}>{clubData.name}</p>
-							</>
-						);
+					{Object.entries(bookmarks).map(([key, bookmark]) => {
+						if (bookmark.tags.includes('Podcast')) {
+							return (
+								<>
+									<h4 key={key}>{bookmark.name}</h4>
+									<p key={key}>{bookmark.link}</p>
+								</>
+							);
+						}
 					})}
 				</Reel>
 				<Footer />

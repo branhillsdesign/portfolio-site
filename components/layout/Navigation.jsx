@@ -1,9 +1,8 @@
 import React from 'react';
 import NavLink from '../primitives/NavLink';
 import SideNavLink from '../primitives/SideNavLink';
-import * as Icon from '../../assets/icons/Duotone/Index';
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 import { useRouter } from 'next/router';
 
 // Main Navigation Menu Items and Links
@@ -82,14 +81,9 @@ export const sideNavMenu = {
 		},
 	},
 	tools: {
-		figmaPlugins: {
-			title: 'figma plugins',
-			href: '/tools/figma-plugins',
-			section: 'tools',
-		},
-		figmaFiles: {
-			title: 'figma files',
-			href: '/tools/figma-files',
+		figmaTools: {
+			title: 'figma tools',
+			href: '/tools/figma-tools',
 			section: 'tools',
 		},
 		apps: {
@@ -100,11 +94,6 @@ export const sideNavMenu = {
 		frameworks: {
 			title: 'frameworks',
 			href: '/tools/frameworks',
-			section: 'tools',
-		},
-		extensions: {
-			title: 'extensions',
-			href: '/tools/extensions',
 			section: 'tools',
 		},
 	},
@@ -122,11 +111,6 @@ export const sideNavMenu = {
 		coolThings: {
 			title: 'cool things',
 			href: '/keeps/cool-things',
-			section: 'keeps',
-		},
-		podcasts: {
-			title: 'podcasts',
-			href: '/keeps/podcasts',
 			section: 'keeps',
 		},
 	},

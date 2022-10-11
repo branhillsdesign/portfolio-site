@@ -1,12 +1,9 @@
-/** @format */
-
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { theme } from '../utils/ThemeConfig.jsx';
+import { theme } from '../components/utils/ThemeConfig.jsx';
 import GoogleAnalytics from '@bradgarropy/next-google-analytics';
 import { DefaultSeo } from 'next-seo';
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&display=swap');
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -75,7 +72,7 @@ function MyApp({ Component, pageProps }) {
 				}}
 			/>
 			<GoogleAnalytics
-				measurementId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}
+				measurementId={process.env.REACT_APP_NEXT_PUBLIC_GOOGLE_ANALYTICS}
 			/>
 			<GlobalStyle />
 			<ThemeProvider theme={theme}>

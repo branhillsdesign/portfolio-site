@@ -1,5 +1,3 @@
-/** @format */
-
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
@@ -23,12 +21,13 @@ import {
 } from '../components/layout/Navigation.jsx';
 import Head from 'next/head';
 import { InlineLink } from '../components/fonts/InlineLink.jsx';
+import { theme } from '../components/utils/ThemeConfig';
 import { PortfolioPageWrapper } from '../components/layout/PortfolioPageWrapper.jsx';
 
 export default function Home() {
 	return (
 		<>
-			<Head>
+      <Head>
 				<title>BranHills.com - About</title>
 				<meta
 					name='description'
@@ -41,8 +40,8 @@ export default function Home() {
 			</Head>
 			<PortfolioPageWrapper>
 				<Spacer height='3rem' />
-
 				<PageHeading>
+					Thanks for being <Highlighter>here</Highlighter>.
 					{`👋 `} Thanks for being<Highlighter> here.</Highlighter>
 					<Spacer height='3rem' />
 				</PageHeading>

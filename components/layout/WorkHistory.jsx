@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
+import { theme } from '../utils/ThemeConfig';
 import { Highlighter } from '../fonts/Highlighters';
 import { InlineLink } from '../fonts/InlineLink';
 import { StyledLink } from '../primitives/StyledLink';

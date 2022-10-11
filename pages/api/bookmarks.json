@@ -1,0 +1,1024 @@
+{
+	"1": {
+		"type": "tools",
+		"name": "Thinking Tools",
+		"label": "Thinking Tools",
+		"tags": ["Framework", "Website"],
+		"link": "https://untools.co/"
+	},
+	"2": {
+		"type": "portfolio",
+		"name": "Laurids Kern",
+		"label": "Laurids Kern",
+		"tags": ["Portfolio", "Website"],
+		"link": "https://lauridskern.com/"
+	},
+	"3": {
+		"type": "apps",
+		"name": "Proton",
+		"label": "Proton",
+		"tags": ["Apps", "Product Showcase", "Website"],
+		"link": "https://proton.me/"
+	},
+	"4": {
+		"type": "apps",
+		"name": "Height App",
+		"label": "Height App",
+		"tags": ["Apps", "Product Showcase", "Website"],
+		"link": "https://height.app/"
+	},
+	"5": {
+		"type": "apps",
+		"name": "Narrative Studio",
+		"label": "Narrative Studio",
+		"tags": ["Apps", "Product Showcase", "Website"],
+		"link": "https://www.narative.co/"
+	},
+	"6": {
+		"type": "bookmark",
+		"name": "Fey Apps",
+		"label": "Fey Apps",
+		"tags": ["Apps", "Product Showcase", "Website"],
+		"link": "https://www.feyapp.com/"
+	},
+	"7": {
+		"type": "bookmark",
+		"name": "Anron Icons",
+		"label": "Anron Icons",
+		"tags": ["Apps", "Product Showcase", "Website"],
+		"link": "https://www.anron.pro/"
+	},
+	"8": {
+		"type": "bookmark",
+		"name": "Planetscale",
+		"label": "Planetscale",
+		"tags": ["Apps", "Product Showcase", "Website"],
+		"link": "https://planetscale.com/"
+	},
+	"9": {
+		"type": "bookmark",
+		"name": "Logsnag",
+		"label": "Logsnag",
+		"tags": ["Apps", "Website"],
+		"link": "https://logsnag.com/"
+	},
+	"10": {
+		"type": "bookmark",
+		"name": "Tama GUI",
+		"label": "Tama GUI",
+		"tags": ["Apps", "Framework", "Product Showcase", "Website"],
+		"link": "https://tamagui.dev/"
+	},
+	"11": {
+		"type": "bookmark",
+		"name": "Brian Lovin",
+		"label": "Brian Lovin",
+		"tags": ["Good Follow", "Inspiration", "Portfolio", "Website"],
+		"link": "https://brianlovin.com/"
+	},
+	"12": {
+		"type": "bookmark",
+		"name": "Johnnyvino Interaction Library",
+		"label": "Jonnyvino Interaction Library",
+		"tags": ["Good Follow", "Inspiration", "Portfolio", "Website", "Product Showcase"],
+		"link": "https://interactions.johnyvino.com/"
+	},
+	"13": {
+		"type": "bookmark",
+		"name": "Planetscale Product Design Process",
+		"label": "Planetscale Product Design Process",
+		"tags": ["Article"],
+		"link": "https://planetscale.com/blog/how-product-design-works-at-planetscale"
+	},
+	"14": {
+		"type": "bookmark",
+		"name": "Themer",
+		"label": "Themer",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/731176732337510831"
+	},
+	"15": {
+		"type": "bookmark",
+		"name": "Blobs",
+		"label": "Blobs",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/739208439270091369"
+	},
+	"16": {
+		"type": "bookmark",
+		"name": "Get Waves",
+		"label": "Get Waves",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/745619465174154496"
+	},
+	"17": {
+		"type": "bookmark",
+		"name": "Arc",
+		"label": "Arc",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/762070688792833472"
+	},
+	"18": {
+		"type": "bookmark",
+		"name": "A11y Color Contrast Checker",
+		"label": "A11y Color Contrast Checker",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/733159460536249875"
+	},
+	"19": {
+		"type": "bookmark",
+		"name": "Color System",
+		"label": "Color System",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/1018552603902710764"
+	},
+	"20": {
+		"type": "bookmark",
+		"name": "Gist",
+		"label": "Gist",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/1073059820691713754"
+	},
+	"21": {
+		"type": "bookmark",
+		"name": "Figpie",
+		"label": "Figpie",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/924390003304842148"
+	},
+	"22": {
+		"type": "bookmark",
+		"name": "Grayscale",
+		"label": "Grayscale",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/1105916617805028875"
+	},
+	"23": {
+		"type": "bookmark",
+		"name": "Noise",
+		"label": "Noise",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/752558325552095625"
+	},
+	"24": {
+		"type": "bookmark",
+		"name": "To Path",
+		"label": "To Path",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/751576264585242935"
+	},
+	"25": {
+		"type": "bookmark",
+		"name": "Super Tidy",
+		"label": "Super Tidy",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/731260060173130163"
+	},
+	"26": {
+		"type": "bookmark",
+		"name": "QuickFrames",
+		"label": "QuickFrames",
+		"tags": ["Figma File"],
+		"link": "https://rafaltomal.com/quickframes/"
+	},
+	"27": {
+		"type": "bookmark",
+		"name": "Haikei",
+		"label": "Haikei",
+		"tags": ["Apps", "Website"],
+		"link": "https://haikei.app/"
+	},
+	"28": {
+		"type": "bookmark",
+		"name": "iOS 16 UI Kit for Figma",
+		"label": "iOS 16 UI Kit for Figma",
+		"tags": ["Figma File"],
+		"link": "https://www.figma.com/community/file/1121065701252736567"
+	},
+	"29": {
+		"type": "bookmark",
+		"name": "Skeuomorphic Buttons",
+		"label": "Skeuomorphic Buttons",
+		"tags": ["Code", "Website"],
+		"link": "https://codepen.io/jouanmarcel/pen/RwweKqb"
+	},
+	"30": {
+		"type": "bookmark",
+		"name": "Atomic Design 2022",
+		"label": "Atomic Design 2022",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/atomic-design-2022-what-we-can-learn-from-eames-and-other-design-giants-4d8e2f579daa"
+	},
+	"31": {
+		"type": "bookmark",
+		"name": "SVGOMG",
+		"label": "SVGOMG",
+		"tags": ["Apps", "Code"],
+		"link": "https://jakearchibald.github.io/svgomg/"
+	},
+	"32": {
+		"type": "bookmark",
+		"name": "The Folly of Design System 'Foundations'",
+		"label": "The Folly of Design System 'Foundations'",
+		"tags": ["Article"],
+		"link": "https://superfriendly.com/design-systems/articles/folly-of-design-system-foundations/"
+	},
+	"33": {
+		"type": "bookmark",
+		"name": "Radial Generator",
+		"label": "Radial Generator",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/1118321937703348544"
+	},
+	"34": {
+		"type": "bookmark",
+		"name": "Ray.so",
+		"label": "Ray.so",
+		"tags": ["Apps"],
+		"link": "https://ray.so/"
+	},
+	"35": {
+		"type": "bookmark",
+		"name": "Awesome Landing Pages",
+		"label": "Awesome Landing Pages",
+		"tags": ["Inspiration"],
+		"link": "https://github.com/nordicgiant2/awesome-landing-page?ref=undesign"
+	},
+	"36": {
+		"type": "bookmark",
+		"name": "Stitches",
+		"label": "Stitches",
+		"tags": ["Code", "Framework"],
+		"link": "https://stitches.dev/"
+	},
+	"37": {
+		"type": "bookmark",
+		"name": "Radix",
+		"label": "Radix",
+		"tags": ["Code", "Framework"],
+		"link": "https://www.radix-ui.com/"
+	},
+	"38": {
+		"type": "bookmark",
+		"name": "SaaS Landing Page Examples",
+		"label": "SaaS Landing Page Examples",
+		"tags": ["Inspiration"],
+		"link": "https://saaslandingpage.com/"
+	},
+	"39": {
+		"type": "bookmark",
+		"name": "Michael Riddering",
+		"label": "Michael Riddering",
+		"tags": ["Good Follow"],
+		"link": "https://www.figma.com/@riddering"
+	},
+	"40": {
+		"type": "bookmark",
+		"name": "Monorepos Explained",
+		"label": "Monorepos Explained",
+		"tags": ["Article"],
+		"link": "https://monorepo.tools/?twclid=229re0riz8yyglx0e5j77ustv3"
+	},
+	"41": {
+		"type": "bookmark",
+		"name": "Bloop",
+		"label": "Bloop",
+		"tags": ["Code", "Extension"],
+		"link": "https://marketplace.visualstudio.com/items?itemName=bloop.bloop"
+	},
+	"42": {
+		"type": "bookmark",
+		"name": "Magical Hover Effect Tutorial",
+		"label": "Magical Hover Effect Tutorial",
+		"tags": ["Code", "Website"],
+		"link": "https://codepen.io/Hyperplexed/full/MWQeYLW"
+	},
+	"43": {
+		"type": "bookmark",
+		"name": "A Guide to Twitter",
+		"label": "A Guide to Twitter",
+		"tags": ["Article"],
+		"link": "https://tasshin.com/blog/a-guide-to-twitter/"
+	},
+	"44": {
+		"type": "bookmark",
+		"name": "Migrating to Figma",
+		"label": "Migrating to Figma",
+		"tags": ["Article"],
+		"link": "https://medium.com/8px-magazine/migrating-to-figma-the-business-case-the-process-and-the-libraries-dedd205a9958"
+	},
+	"45": {
+		"type": "bookmark",
+		"name": "Shuffle.dev",
+		"label": "Shuffle.dev",
+		"tags": ["Apps"],
+		"link": "https://shuffle.dev/"
+	},
+	"46": {
+		"type": "bookmark",
+		"name": "Master JS",
+		"label": "Master JS",
+		"tags": ["Code", "Website"],
+		"link": "https://masterjs.vercel.app/"
+	},
+	"47": {
+		"type": "bookmark",
+		"name": "Zeroheight",
+		"label": "Zeroheight",
+		"tags": ["Apps"],
+		"link": "https://www.zeroheight.com/"
+	},
+	"48": {
+		"type": "bookmark",
+		"name": "Undesign",
+		"label": "Undesign",
+		"tags": ["Apps", "Website"],
+		"link": "https://undesign.learn.uno/"
+	},
+	"49": {
+		"type": "bookmark",
+		"name": "Directory Structure",
+		"label": "Directory Structure",
+		"tags": ["Article", "Code"],
+		"link": "https://gridsome.org/docs/directory-structure/"
+	},
+	"50": {
+		"type": "bookmark",
+		"name": "How to Manager Your Folder Structure in JS Properly",
+		"label": "How to Manage Your Folder Structure in JS Properly",
+		"tags": ["Article", "Code"],
+		"link": "https://www.rahmandawibowo.com/blog/en/how-to-manage-your-folder-structure-in-js-project-effectively/"
+	},
+	"51": {
+		"type": "bookmark",
+		"name": "Siteinspire",
+		"label": "Siteinspire",
+		"tags": ["Inspiration"],
+		"link": "https://www.siteinspire.com/"
+	},
+	"52": {
+		"type": "bookmark",
+		"name": "Pagecollective",
+		"label": "Pagecollective",
+		"tags": ["Inspiration"],
+		"link": "https://pagecollective.com/"
+	},
+	"53": {
+		"type": "bookmark",
+		"name": "600 Premium Outline Icons",
+		"label": "600 Premium Outline Icons",
+		"tags": ["Inspiration"],
+		"link": "https://ui8.net/smashing-stocks/products/premium-line-icons"
+	},
+	"54": {
+		"type": "bookmark",
+		"name": "Essential Web Icons Vol 2",
+		"label": "Essential Web Icons Vol 2",
+		"tags": ["Inspiration"],
+		"link": "https://ui8.net/virgil-pana/products/web-essential-icons-volume-2"
+	},
+	"55": {
+		"type": "bookmark",
+		"name": "Design Sensei",
+		"label": "Design Sensei",
+		"tags": ["Apps", "Website"],
+		"link": "https://www.designsensei.io/"
+	},
+	"56": {
+		"type": "bookmark",
+		"name": "Barlow Mono",
+		"label": "Barlow Mono",
+		"tags": ["Typography"],
+		"link": "https://github.com/tetraoxygen/barlow-mono"
+	},
+	"57": {
+		"type": "bookmark",
+		"name": "How to build a design system if you're the only designer in a startup",
+		"label": "How to build a design system if you're the only designer in a startup",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/how-to-build-a-design-system-if-youre-the-only-designer-in-a-startup-f4695d2f4b7f"
+	},
+	"58": {
+		"type": "bookmark",
+		"name": "Components.ai",
+		"label": "Components.ai",
+		"tags": ["Apps", "Website"],
+		"link": "https://components.ai/"
+	},
+	"59": {
+		"type": "bookmark",
+		"name": "React Apple Watch Bubble UI Tutorial",
+		"label": "React Apple Watch Bubble UI Tutorial",
+		"tags": ["Article", "Code"],
+		"link": "https://bubbleui.blakesanie.com/#/demo"
+	},
+	"60": {
+		"type": "bookmark",
+		"name": "Minimator",
+		"label": "Minimator",
+		"tags": ["Apps"],
+		"link": "https://minimator.app/"
+	},
+	"61": {
+		"type": "bookmark",
+		"name": "Applying Whitespace in UI Design",
+		"label": "Applying Whitespace in UI Design",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/whitespace-in-ui-design-44e332c8e4a"
+	},
+	"62": {
+		"type": "bookmark",
+		"name": "CSS Tips",
+		"label": "CSS Tips",
+		"tags": ["Article", "Code"],
+		"link": "https://markodenic.com/css-tips/"
+	},
+	"63": {
+		"type": "bookmark",
+		"name": "PixelGrid",
+		"label": "PixelGrid",
+		"tags": ["Extension"],
+		"link": "https://pixelgrid.zwezdin.com/"
+	},
+	"64": {
+		"type": "bookmark",
+		"name": "HexGuess",
+		"label": "HexGuess",
+		"tags": ["Apps"],
+		"link": "http://hex-guess.glitch.me/"
+	},
+	"65": {
+		"type": "bookmark",
+		"name": "Utopia - Fluid Responsive Design",
+		"label": "Utopia - Fluid Responsive Design",
+		"tags": ["Website"],
+		"link": "https://utopia.fyi/"
+	},
+	"66": {
+		"type": "bookmark",
+		"name": "YourStack",
+		"label": "YourStack",
+		"tags": ["Website"],
+		"link": "https://yourstack.com/"
+	},
+	"67": {
+		"type": "bookmark",
+		"name": "Pulsar",
+		"label": "Pulsar",
+		"tags": ["Apps"],
+		"link": "https://www.trypulsar.com/"
+	},
+	"68": {
+		"type": "bookmark",
+		"name": "Shawn Park",
+		"label": "Shawn Park",
+		"tags": ["Portfolio"],
+		"link": "https://www.designbyroka.com/"
+	},
+	"69": {
+		"type": "bookmark",
+		"name": "Product Hunt",
+		"label": "Product Hunt",
+		"tags": ["Website"],
+		"link": "https://www.producthunt.com/"
+	},
+	"70": {
+		"type": "bookmark",
+		"name": "Give it Five Minutes",
+		"label": "Give it Five Minutes",
+		"tags": ["Article", "Mental Health"],
+		"link": "https://signalvnoise.com/posts/3124-give-it-five-minutes"
+	},
+	"71": {
+		"type": "bookmark",
+		"name": "Maggie Appleton",
+		"label": "Maggie Appleton",
+		"tags": ["Portfolio"],
+		"link": "https://maggieappleton.com/"
+	},
+	"72": {
+		"type": "bookmark",
+		"name": "Responsive Grids and How to Actually Use Them",
+		"label": "Responsive Grids and How to Actually Use Them",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/responsive-grids-and-how-to-actually-use-them-970de4c16e01"
+	},
+	"73": {
+		"type": "bookmark",
+		"name": "Justin Farrugia",
+		"label": "Justin Farrugia",
+		"tags": ["Portfolio"],
+		"link": "https://www.justinfarrugia.com/"
+	},
+	"74": {
+		"type": "bookmark",
+		"name": "Interface in Game",
+		"label": "Interface in Game",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://interfaceingame.com/"
+	},
+	"75": {
+		"type": "bookmark",
+		"name": "GameUI Database",
+		"label": "GameUI Database",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://gameuidatabase.com/index.php"
+	},
+	"76": {
+		"type": "bookmark",
+		"name": "The UX of Video Game Tutorials",
+		"label": "The UX of Video Game Tutorials",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/the-ux-of-video-game-tutorials-7e7bc37e2ceb"
+	},
+	"77": {
+		"type": "bookmark",
+		"name": "Mobbin",
+		"label": "Mobbin",
+		"tags": ["Inspiration"],
+		"link": "https://mobbin.com/"
+	},
+	"78": {
+		"type": "bookmark",
+		"name": "Liferay.Design",
+		"label": "Liferay.Design",
+		"tags": ["Figma File", "Inspiration", "Website"],
+		"link": "https://liferay.design/resources/figma/"
+	},
+	"79": {
+		"type": "bookmark",
+		"name": "Josh W. Comeau",
+		"label": "Josh W. Comeau",
+		"tags": ["Code", "Good Follow", "Website"],
+		"link": "https://www.joshwcomeau.com/blog/how-i-built-my-blog/"
+	},
+	"80": {
+		"type": "bookmark",
+		"name": "Have better career conversations with your design team with this levels framework",
+		"label": "Have better career conversations with your design team with this levels framework",
+		"tags": ["Article"],
+		"link": "https://orgdesignfordesignorgs.com/2017/05/12/design-team-levels-framework/"
+	},
+	"81": {
+		"type": "bookmark",
+		"name": "Design Team Levels Framework",
+		"label": "Design Team Levels Framework",
+		"tags": ["Framework"],
+		"link": "https://docs.google.com/spreadsheets/d/1m-Cso3848CgEz0eng5spL0lDppnwOgt726jJ01pVwO8/htmlview#gid=288553197"
+	},
+	"82": {
+		"type": "bookmark",
+		"name": "How to build a User Research repository in Notion",
+		"label": "How to build a user research repository in Notion",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/step-by-step-how-to-build-a-user-research-repository-in-notion-8d96c46a0211"
+	},
+	"83": {
+		"type": "bookmark",
+		"name": "Designing Microinteractions with Figma interactive components",
+		"label": "Designing Microinteractions with Figma interactive components",
+		"tags": ["Article"],
+		"link": "https://bootcamp.uxdesign.cc/designing-micro-interactions-with-figma-interactive-components-23a02d10be6b"
+	},
+	"84": {
+		"type": "bookmark",
+		"name": "Glassmorphism in UI",
+		"label": "Glassmorphism in UI",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9"
+	},
+	"85": {
+		"type": "bookmark",
+		"name": "Website Style Guide Resources",
+		"label": "Website Style Guide Resources",
+		"tags": ["Inspiration", "Website"],
+		"link": "http://styleguides.io/"
+	},
+	"86": {
+		"type": "bookmark",
+		"name": "The 8-Point Grid",
+		"label": "The 8-Point Grid",
+		"tags": ["Article"],
+		"link": "https://spec.fm/specifics/8-pt-grid"
+	},
+	"87": {
+		"type": "bookmark",
+		"name": "Carbon Design System",
+		"label": "Carbon Design System",
+		"tags": ["Inspiration"],
+		"link": "https://carbondesignsystem.com/guidelines/2x-grid/overview/"
+	},
+	"88": {
+		"type": "bookmark",
+		"name": "How to Develop an Eye for Design",
+		"label": "How to Develop an Eye for Design",
+		"tags": ["Article"],
+		"link": "https://carbondesignsystem.com/guidelines/2x-grid/overview/"
+	},
+	"89": {
+		"type": "bookmark",
+		"name": "CSS Masonry Layouts",
+		"label": "CSS Masonry Layouts",
+		"tags": ["Article", "Code"],
+		"link": "https://fjolt.com/article/css-grid-masonry"
+	},
+	"90": {
+		"type": "bookmark",
+		"name": "The Ultimate Guide to Customer Journey Mapping",
+		"label": "The Ultimate Guide to Customer Journey Mapping",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/ultimate-guide-to-customer-journey-mapping-ux-tools-series-b973ca442213"
+	},
+	"91": {
+		"type": "bookmark",
+		"name": "Text Fields & Form Design",
+		"label": "Text Fields & Form Design",
+		"tags": ["Article"],
+		"link": "https://www.notion.so/Bookmarks-c9d7900ccc2545c48e0318526f9f4c84"
+	},
+	"92": {
+		"type": "bookmark",
+		"name": "Anatomy of a Button",
+		"label": "Anatomy of a Button",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/button-design-user-interface-components-series-85243b6736c7"
+	},
+	"93": {
+		"type": "bookmark",
+		"name": "Squircle",
+		"label": "Squircle",
+		"tags": ["Website"],
+		"link": "https://en.wikipedia.org/wiki/Squircle"
+	},
+	"94": {
+		"type": "bookmark",
+		"name": "http://Are.na Job Board",
+		"label": "http://Are.na Job Board",
+		"tags": ["Jobs"],
+		"link": "https://www.are.na/carly-ayres/resources-for-design-job-seekers"
+	},
+	"95": {
+		"type": "bookmark",
+		"name": "A Beginner's Guide to Web Accessibility",
+		"label": "A Beginner's Guide to Web Accessibility",
+		"tags": ["Article"],
+		"link": "https://bootcamp.uxdesign.cc/beginners-guide-to-web-accessibility-514644750b0f"
+	},
+	"96": {
+		"type": "bookmark",
+		"name": "Design Vault",
+		"label": "Design Vault",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://designvault.io/"
+	},
+	"97": {
+		"type": "bookmark",
+		"name": "CollectUI",
+		"label": "CollectUI",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://collectui.com/challenges/social-share"
+	},
+	"98": {
+		"type": "bookmark",
+		"name": "Layoutit Grid",
+		"label": "Layoutit Grid",
+		"tags": ["Apps", "Code"],
+		"link": "https://grid.layoutit.com/"
+	},
+	"99": {
+		"type": "bookmark",
+		"name": "How Much Does a Website Cost in 2021?",
+		"label": "How Much Does a Website Cost in 2021?",
+		"tags": ["Article"],
+		"link": "https://designagency.io/"
+	},
+	"100": {
+		"type": "bookmark",
+		"name": "CSS Definition",
+		"label": "CSS Definition",
+		"tags": ["Code", "Website"],
+		"link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+	},
+	"101": {
+		"type": "bookmark",
+		"name": "Every Layout",
+		"label": "Every Layout",
+		"tags": ["Apps", "Code", "Website"],
+		"link": "https://every-layout.dev/layouts/stack/"
+	},
+	"102": {
+		"type": "bookmark",
+		"name": "1 Line Layouts",
+		"label": "1 Line Layouts",
+		"tags": ["Code", "Website"],
+		"link": "http://1linelayouts.glitch.me/"
+	},
+	"103": {
+		"type": "bookmark",
+		"name": "Creating a design system in Figma: a practical guide",
+		"label": "Creating a design system in Figma: a practical guide",
+		"tags": ["Article"],
+		"link": "http://1linelayouts.glitch.me/"
+	},
+	"104": {
+		"type": "bookmark",
+		"name": "Cleaning Up Form UI",
+		"label": "Cleaning Up Form UI",
+		"tags": ["Article", "Inspiration"],
+		"link": "https://tonsky.me/blog/form-cleanup/"
+	},
+	"105": {
+		"type": "bookmark",
+		"name": "Design Tokens Cheat Sheet",
+		"label": "Design Tokens Cheat Sheet",
+		"tags": ["Article"],
+		"link": "https://uxdesign.cc/design-tokens-cheatsheet-927fc1404099"
+	},
+	"106": {
+		"type": "bookmark",
+		"name": "Design Details Cool Things",
+		"label": "Design Details Cool Things",
+		"tags": ["Website"],
+		"link": "https://cool-things-design-details.webflow.io/"
+	},
+	"107": {
+		"type": "bookmark",
+		"name": "Laws of UX",
+		"label": "Laws of UX",
+		"tags": ["Website"],
+		"link": "https://lawsofux.com/en/"
+	},
+	"108": {
+		"type": "bookmark",
+		"name": "Built for Mars",
+		"label": "Built for Mars",
+		"tags": ["Website"],
+		"link": "https://builtformars.com/"
+	},
+	"109": {
+		"type": "bookmark",
+		"name": "Careervault.io",
+		"label": "Careervault.io",
+		"tags": ["Jobs"],
+		"link": "https://careervault.io/"
+	},
+	"110": {
+		"type": "bookmark",
+		"name": "Codesandbox",
+		"label": "Codesandbox",
+		"tags": ["Apps", "Code"],
+		"link": "https://codesandbox.io/explore"
+	},
+	"111": {
+		"type": "bookmark",
+		"name": "Sproutsocial",
+		"label": "Sproutsocial",
+		"tags": ["Code", "Framework"],
+		"link": "https://seeds.sproutsocial.com/components/getting-started/"
+	},
+	"112": {
+		"type": "bookmark",
+		"name": "Styled-Components",
+		"label": "Styled-Components",
+		"tags": ["Code", "Framework"],
+		"link": "https://styled-components.com/"
+	},
+	"113": {
+		"type": "bookmark",
+		"name": "Google Lighthouse Guide",
+		"label": "Google Lighthouse Guide",
+		"tags": ["Article"],
+		"link": "https://myland.nu/lighthouse/"
+	},
+	"114": {
+		"type": "bookmark",
+		"name": "Compose a Vertical Rhythm",
+		"label": "Compose a Vertical Rythm",
+		"tags": ["Article"],
+		"link": "https://24ways.org/2006/compose-to-a-vertical-rhythm"
+	},
+	"115": {
+		"type": "bookmark",
+		"name": "Setting Type on the web to a baseline grid",
+		"label": "Setting Type on the web to a baseline grid",
+		"tags": ["Article"],
+		"link": "https://alistapart.com/article/settingtypeontheweb/"
+	},
+	"116": {
+		"type": "bookmark",
+		"name": "Intro to React",
+		"label": "Intro to React",
+		"tags": ["Article"],
+		"link": "https://reactjs.org/tutorial/tutorial.html"
+	},
+	"117": {
+		"type": "bookmark",
+		"name": "Majesticons",
+		"label": "Majesticons",
+		"tags": ["Apps", "Inspiration", "Website"],
+		"link": "https://www.majesticons.com/"
+	},
+	"118": {
+		"type": "bookmark",
+		"name": "SaasPages.xyz",
+		"label": "SaaSPages.xyz",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://saaspages.xyz/"
+	},
+	"119": {
+		"type": "bookmark",
+		"name": "Getting Rejected a lot and liking it",
+		"label": "Getting rejected a lot and liking it",
+		"tags": ["Article"],
+		"link": "https://getpocket.com/explore/item/on-getting-rejected-a-lot-and-liking-it?utm_source=pocket-newtab"
+	},
+	"120": {
+		"type": "bookmark",
+		"name": "Mae Capozzi",
+		"label": "Mae Capozzi",
+		"tags": ["Good Follow", "Portfolio", "Website"],
+		"link": "https://maecapozzi.com/"
+	},
+	"121": {
+		"type": "bookmark",
+		"name": "Automate Notion",
+		"label": "Automate Notion",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://www.automate-notion.com/?ref=producthunt"
+	},
+	"122": {
+		"type": "bookmark",
+		"name": "SigmaOS",
+		"label": "SigmaOS",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://sigmaos.com/?ref=producthunt"
+	},
+	"123": {
+		"type": "bookmark",
+		"name": "Flux Academy",
+		"label": "Flux Academy",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://www.flux-academy.com/resources/notion-freelance-hub?ref=producthunt"
+	},
+	"124": {
+		"type": "bookmark",
+		"name": "Typedream",
+		"label": "Typedream",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://typedream.com/?ref=producthunt"
+	},
+	"125": {
+		"type": "bookmark",
+		"name": "Softr",
+		"label": "Softr",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://www.softr.io/?ref=producthunt"
+	},
+	"126": {
+		"type": "bookmark",
+		"name": "Potion",
+		"label": "Potion",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://potion.so/?ref=producthunt"
+	},
+	"127": {
+		"type": "bookmark",
+		"name": "Podcastle",
+		"label": "Podcastle",
+		"tags": ["Apps"],
+		"link": "https://podcastle.ai/?ref=producthunt"
+	},
+	"128": {
+		"type": "bookmark",
+		"name": "Ghost",
+		"label": "Ghost",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://ghost.org/?ref=producthunt"
+	},
+	"129": {
+		"type": "bookmark",
+		"name": "Cron",
+		"label": "Cron",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://cron.com/"
+	},
+	"130": {
+		"type": "bookmark",
+		"name": "Fathom",
+		"label": "Fathom",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://fathom.video/?ref=producthunt"
+	},
+	"131": {
+		"type": "bookmark",
+		"name": "Raycast",
+		"label": "Raycast",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://www.raycast.com/"
+	},
+	"132": {
+		"type": "bookmark",
+		"name": "Thirdweb",
+		"label": "Thirdweb",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://thirdweb.com/?ref=producthunt#fees"
+	},
+	"133": {
+		"type": "bookmark",
+		"name": "Reflect",
+		"label": "Reflect",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://reflect.app/?utm_source=producthunt&ref=producthunt"
+	},
+	"134": {
+		"type": "bookmark",
+		"name": "UntitledUI",
+		"label": "UntitledUI",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://www.untitledui.com/icons?ref=producthunt"
+	},
+	"135": {
+		"type": "bookmark",
+		"name": "Bardeen",
+		"label": "Bardeen",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://www.bardeen.ai/"
+	},
+	"136": {
+		"type": "bookmark",
+		"name": "NextUI",
+		"label": "NextUI",
+		"tags": ["Inspiration", "Product Showcase", "Website"],
+		"link": "https://nextui.org/?ref=producthunt"
+	},
+	"137": {
+		"type": "bookmark",
+		"name": "Cyberpunk 2077",
+		"label": "Cyberpunk 2077",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://www.cyberpunk.net/us/en/"
+	},
+	"138": {
+		"type": "bookmark",
+		"name": "Diablo 4",
+		"label": "Diablo 4",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://diablo4.blizzard.com/en-us/"
+	},
+	"139": {
+		"type": "bookmark",
+		"name": "League of Legends",
+		"label": "League of Legends",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://www.leagueoflegends.com/en-us/"
+	},
+	"140": {
+		"type": "bookmark",
+		"name": "Ori and the Blind Forest",
+		"label": "Ori and the Blind Forest",
+		"tags": ["Inspiration", "Website"],
+		"link": "https://www.orithegame.com/"
+	},
+	"141": {
+		"type": "bookmark",
+		"name": "Early Stage Design Jobs",
+		"label": "Early Stage Design Jobs",
+		"tags": ["Jobs"],
+		"link": "https://www.earlystagedesignjobs.com/"
+	},
+	"142": {
+		"type": "bookmark",
+		"name": "Dune Concept Art",
+		"label": "Dune Concept Art",
+		"tags": ["Inspiration"],
+		"link": "https://www.behance.net/gallery/65772053/Dune"
+	},
+	"143": {
+		"type": "bookmark",
+		"name": "Design Details",
+		"label": "Design Details",
+		"tags": ["Podcast"],
+		"link": "https://designdetails.fm/"
+	},
+	"144": {
+		"type": "bookmark",
+		"name": "The Design of VR",
+		"label": "The Design of VR",
+		"tags": ["Article"],
+		"link": "https://aliheston.gitbook.io/the-design-of-virtual-and-augmented-reality/"
+	},
+	"145": {
+		"type": "bookmark",
+		"name": "Alphredo",
+		"label": "Alphredo",
+		"tags": ["Apps"],
+		"link": "https://alphredo.app/"
+	},
+	"146": {
+		"type": "bookmark",
+		"name": "Alphredo",
+		"label": "Alphredo",
+		"tags": ["Figma Plugin"],
+		"link": "https://www.figma.com/community/plugin/1139249018997247390"
+	}
+}

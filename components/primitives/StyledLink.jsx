@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig.jsx';
+import { theme } from '../utils/ThemeConfig.jsx';
 
 export const StyledLink = styled.a`
 	cursor: pointer;

@@ -7,6 +7,7 @@ import {
 	DesktopMainNav,
 	DesktopSideNav,
 } from '../components/layout/Navigation.jsx';
+import bookmarks from './api/bookmarks.json';
 
 export default function Keeps() {
 	return (
@@ -14,10 +15,20 @@ export default function Keeps() {
 			<PageWrapper>
 				<DesktopMainNav />
 				<PageHeading>
-					Page Heading
+					All my <Highlighter>bookmarks</Highlighter>.
 				</PageHeading>
 				<DesktopSideNav />
-				<Reel></Reel>
+				<Reel>
+					{Object.entries(bookmarks).map(([key, bookmark]) => {
+						return (
+							<>
+								<h4 key={key}>{bookmark.name}</h4>
+								<p key={key}>{bookmark.link}</p>
+								<p key={key}>{bookmark.tags}</p>
+							</>
+						);
+					})}
+				</Reel>
 				<Footer />
 			</PageWrapper>
 		</>

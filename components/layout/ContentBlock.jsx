@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { theme } from '../../utils/ThemeConfig';
 
 export const ContentBlock = styled.div`
 	display: flex;
