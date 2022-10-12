@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   html, body, #__next {
     height: 100%;
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background: ${theme.dark.bg00}
+    background: ${theme.dark.bg00};
   }
   body {
     -webkit-font-smoothing: antialiased;

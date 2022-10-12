@@ -103,9 +103,9 @@ export const theme = {
 		p2: 'font-weight: 400; font-size: clamp(1rem, 1vw, 1.125rem);',
 
 		// Label Type Styles
-		labelsmall: 'clamp(.9rem, 1.2vw, 1rem);',
-		labelmedium: 'clamp(1rem, 1.2vw, 1.06rem);',
-		labellarge: 'clamp(1rem, 1.2vw, 1.125rem);',
+		labelsmall: 'font-weight: 400; font-size: .9rem;',
+		labelmedium: 'font-weight: 400; font-size: .875rem;',
+		labellarge: 'font-weight: 400; font-size: 1rem;',
 
 		// Stylized Type Styles
 		allCaps:

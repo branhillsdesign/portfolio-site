@@ -7,11 +7,10 @@ export const StyledReel = styled.main`
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	max-height: 100%;
 	gap: 1.5rem;
 	& > div {
-		max-width: 400px;
-    min-width: 320px;
+		min-width: 150px;
+    max-width: 55ch;
 	} 
   ${theme.breakpoints.lg} {
     display: none;
@@ -20,10 +19,6 @@ export const StyledReel = styled.main`
 
 export const MobileReel = styled.main`
 	grid-area: 3/1/4/2;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 1.5rem;
 	${theme.breakpoints.ultra} {
 		display: none;
 	}
@@ -31,7 +26,9 @@ export const MobileReel = styled.main`
 		display: none;
 	}
   ${theme.breakpoints.lg} {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 `;
 
