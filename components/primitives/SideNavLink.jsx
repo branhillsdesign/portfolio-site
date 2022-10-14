@@ -31,6 +31,9 @@ const SideNavLinkStyles = styled.a`
 			height: 1rem;
 		}
 	}
+	${theme.breakpoints.lg} {
+		padding: 0;
+	}
 `;
 
 function SideNavLink({ children, href, router }) {

@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
@@ -8,17 +10,19 @@ import {
 	DesktopSideNav,
 } from '../components/layout/Navigation.jsx';
 import bookmarks from './api/bookmarks.json';
+import { BookmarkContainer } from '../components/primitives/BookmarkContainer.jsx';
 
 export default function Keeps() {
 	return (
 		<>
+			<DesktopMainNav />
 			<PageWrapper>
-				<DesktopMainNav />
 				<PageHeading>
 					All my <Highlighter>bookmarks</Highlighter>.
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
+					<BookmarkContainer>Bookmark</BookmarkContainer>
 					{Object.entries(bookmarks).map(([key, bookmark]) => {
 						return (
 							<>

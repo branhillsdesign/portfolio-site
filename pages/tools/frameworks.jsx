@@ -12,8 +12,8 @@ import bookmarks from '../api/bookmarks.json';
 export default function frameworks() {
 	return (
 		<>
-			<PageWrapper>
 				<DesktopMainNav />
+			<PageWrapper>
 				<PageHeading>
 					Items for <Highlighter>ingenuity</Highlighter>
 				</PageHeading>

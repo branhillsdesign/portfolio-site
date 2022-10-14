@@ -19,7 +19,7 @@ export const FlexBox = styled.div`
 	min-width: ${(props) => props.minWidth};
 	width: ${(props) => props.width};
 	height: ${(props) => props.height};
-	box-sizing: ${(props) => props.boxSizing || 'inherit'};
+	box-sizing: ${(props) => props.boxSizing || 'block'};
 	border-radius: ${(props) => props.borderRadius};
 
 	> * & {

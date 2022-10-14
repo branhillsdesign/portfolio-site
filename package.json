@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@bradgarropy/next-google-analytics": "^1.0.2",
+    "cors": "^2.8.5",
+    "fetch-opengraph": "^1.0.35",
     "firebase": "^9.11.0",
     "next": "12.2.3",
     "next-seo": "^5.5.0",

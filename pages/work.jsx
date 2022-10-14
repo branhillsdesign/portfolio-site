@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
@@ -11,9 +13,11 @@ import {
 export default function Tools() {
 	return (
 		<>
+			<DesktopMainNav />
 			<PageWrapper>
-				<DesktopMainNav />
-				<PageHeading>My body of <Highlighter>work</Highlighter>.</PageHeading>
+				<PageHeading>
+					My body of <Highlighter>work</Highlighter>.
+				</PageHeading>
 				<DesktopSideNav />
 				<Reel></Reel>
 				<Footer />

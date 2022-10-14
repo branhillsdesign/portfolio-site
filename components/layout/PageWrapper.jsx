@@ -1,17 +1,18 @@
+/** @format */
+
 import styled from 'styled-components';
 import { theme } from '../utils/ThemeConfig';
 
 export const PageWrapper = styled.div`
 	display: grid;
-	grid-template-columns: 17rem 1fr;
-	grid-template-rows: 7.5rem 15vh 1fr 80px;
-	height: 100%;
+	grid-template-columns: minmax(auto, .2fr) 1fr 60px;
+	grid-template-rows: auto minmax(60vh, 70vh) .1fr;
 	padding-left: 5vw;
-  grid-column-gap: 1rem;
+	grid-column-gap: 1.5rem;
+	overflow: auto;
 	${theme.breakpoints.lg} {
-		grid-template-columns: 1fr 2rem;
-		grid-template-rows: 4rem .1fr 1fr;
-		overflow-x: hidden;
-    padding-right: 5vw;
+		grid-template-columns: 1fr 1fr 60px;
+		grid-template-rows: auto 1fr 80px;
+		overflow: auto;
 	}
 `;

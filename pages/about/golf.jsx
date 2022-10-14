@@ -31,14 +31,14 @@ import { Spacer } from '../../components/utils/Spacer.jsx';
 export default function Golf() {
 	return (
 		<>
-			<PageWrapper>
 				<DesktopMainNav />
+			<PageWrapper>
 				<PageHeading>
 					The more I practice, the <Highlighter>luckier</Highlighter> I get.
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					<ContentBlock>
+					<ContentBlock gridRow='span 4'>
 						<H2 color={theme.dark.vivid}>Golf Club Stock Distances</H2>
 						<Spacer />
 						<P1 color={theme.dark.vivid}>
@@ -57,11 +57,7 @@ export default function Golf() {
 					{Object.entries(golfClubs).map(([key, clubData]) => {
 						return (
 							<>
-								<CardSurface
-									key={key}
-									padding='0.5rem 1rem'
-									minWidth='250px'
-									flexDirection='column'>
+								<CardSurface key={key} padding='0.5rem 1rem'>
 									<FlexBox justifyContent='space-between' alignItems='center'>
 										<H6 color={theme.dark.maindim} textTransform='capitalize'>
 											{clubData.type}
