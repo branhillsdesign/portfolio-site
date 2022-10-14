@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
@@ -12,23 +14,23 @@ import bookmarks from './api/bookmarks.json';
 export default function Tools() {
 	return (
 		<>
+			<DesktopMainNav />
 			<PageWrapper>
-				<DesktopMainNav />
 				<PageHeading>
-					Tools for <Highlighter>creation</Highlighter>.
+					Implements for <Highlighter>ingenuity</Highlighter>.
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
 					{Object.entries(bookmarks).map(([key, bookmark]) => {
-            if (
+						if (
 							bookmark.tags.some(
 								(tag) =>
 									tag === 'Apps' ||
 									tag === 'Figma Plugin' ||
 									tag === 'Figma File' ||
-                  tag === 'Framework' ||
-                  tag === 'Extension' ||
-                  tag === 'Icons'
+									tag === 'Framework' ||
+									tag === 'Extension' ||
+									tag === 'Icons'
 							)
 						) {
 							return (

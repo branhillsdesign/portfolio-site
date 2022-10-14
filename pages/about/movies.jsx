@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../../components/layout/PageHeading.jsx';
 import { Highlighter } from '../../components/fonts/Highlighters.jsx';
@@ -7,13 +9,14 @@ import {
 	DesktopMainNav,
 	DesktopSideNav,
 } from '../../components/layout/Navigation.jsx';
-import movies from '../api/movies.json'
+import movies from '../api/movies.json';
+import { H4, P1 } from '../../components/fonts/TypeStyles.jsx';
 
 export default function Movies() {
 	return (
 		<>
-			<PageWrapper>
 				<DesktopMainNav />
+			<PageWrapper>
 				<PageHeading>
 					My <Highlighter>Top Ten</Highlighter> of all time.
 				</PageHeading>
@@ -22,9 +25,9 @@ export default function Movies() {
 					{Object.entries(movies).map(([key, movieItem]) => {
 						return (
 							<>
-								<h4 key={key}>{movieItem.Title}</h4>
-								<p key={key}>{movieItem.URL}</p>
-								<p key={key}>{movieItem['Release Date']}</p>
+								<H4 key={key}>{movieItem.Title}</H4>
+								<P1 key={key}>{movieItem.URL}</P1>
+								<P1 key={key}>{movieItem['Release Date']}</P1>
 							</>
 						);
 					})}

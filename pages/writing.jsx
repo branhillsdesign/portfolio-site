@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../components/layout/PageHeading.jsx';
 import { Highlighter } from '../components/fonts/Highlighters.jsx';
@@ -11,8 +13,8 @@ import {
 export default function Writing() {
 	return (
 		<>
+			<DesktopMainNav />
 			<PageWrapper>
-				<DesktopMainNav />
 				<PageHeading>Page Heading</PageHeading>
 				<DesktopSideNav />
 				<Reel></Reel>

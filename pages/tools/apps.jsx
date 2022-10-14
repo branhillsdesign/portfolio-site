@@ -12,8 +12,8 @@ import bookmarks from '../api/bookmarks.json';
 export default function apps() {
 	return (
 		<>
-			<PageWrapper>
 				<DesktopMainNav />
+			<PageWrapper>
 				<PageHeading>
 					<Highlighter>Great</Highlighter> apps and websites.
 				</PageHeading>

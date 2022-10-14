@@ -1,47 +1,52 @@
+/** @format */
+
 import styled from 'styled-components';
 import ScrollHorizontal from '../../utils/HorizontalScroll.jsx';
+import useWindowSize from '../utils/QueryWindowSize.jsx';
 import { theme } from '../utils/ThemeConfig';
 
 export const StyledReel = styled.main`
-	grid-area: 3/2/4/3;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	max-height: 100%;
-	gap: 1.5rem;
-	& > div {
-		max-width: 400px;
-    min-width: 320px;
-	} 
-  ${theme.breakpoints.lg} {
-    display: none;
-  }
+	grid-area: 2/2/3/4;
+	display: grid;
+	grid-auto-columns: 25ch;
+	grid-template-rows: repeat(4, minmax(min-content, max-content));
+	grid-column-gap: 1.5rem;
+	grid-row-gap: 1.5rem;
+	grid-auto-flow: column;
+	overflow-x: scroll;
+	padding-bottom: 8px;
+	&::-webkit-scrollbar {
+		height: 4px;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: ${theme.dark.subtle};
+		border-radius: 8px;
+	}
+	scrollbar-color: ${theme.dark.subtle} transparent;
 `;
 
 export const MobileReel = styled.main`
-	grid-area: 3/1/4/2;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 1.5rem;
 	${theme.breakpoints.ultra} {
 		display: none;
 	}
 	${theme.breakpoints.xl} {
 		display: none;
 	}
-  ${theme.breakpoints.lg} {
-    display: block;
-  }
+	${theme.breakpoints.lg} {
+		grid-area: 2/1/3/3;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-auto-rows: minmax(8ch, min-content);
+		gap: 1.5rem;
+	}
 `;
 
 export const Reel = (props) => {
+	const size = useWindowSize();
 	return (
 		<>
-			<ScrollHorizontal reverseScroll={true}>
-				<StyledReel>{props.children}</StyledReel>
-      </ScrollHorizontal>
-      <MobileReel>{props.children}</MobileReel>
+			{size.width > 1199.98 && <StyledReel>{props.children}</StyledReel>}
+			<MobileReel>{props.children}</MobileReel>
 		</>
 	);
 };

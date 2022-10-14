@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react';
 import NavLink from '../primitives/NavLink';
 import SideNavLink from '../primitives/SideNavLink';
@@ -136,14 +138,12 @@ export const sideNavMenu = {
 // Desktop Main Nav Layout Styles
 const MainNavStyles = styled.nav`
 	text-transform: capitalize;
-	align-self: center;
 	display: flex;
-	grid-area: 1/1/2/3;
-  justify-content: flex-start;
-  ${theme.breakpoints.lg} {
-    justify-content: space-between;
-    padding-right: 5vw;
-  }
+	padding:  1.5rem calc(5vw - 1rem);
+	${theme.breakpoints.lg} {
+		justify-content: space-around;
+		padding: 1.5rem 5vw;
+	}
 `;
 
 // Create Main Navigation Menu from JSON Above
@@ -188,15 +188,16 @@ export const DesktopMainNav = (props) => {
 
 // Desktop Side Nav Layout Styles
 const SideNavStyles = styled.nav`
-	display: flex;
-	flex-direction: column;
-	grid-area: 3/1/4/2;
+	grid-area: 2/1/3/2;
 	${theme.breakpoints.lg} {
-		grid-area: 2/2/4/3;
-    flex-direction: row-reverse;
-    rotate: 270deg;
-    align-self: flex-start;
-    gap: 2rem;
+		grid-area: 1/3/3/4;
+		rotate: 270deg;
+		display: flex;
+		flex-direction: row-reverse;
+		width: min-content;
+		height: min-content;
+    gap: 1.5rem;
+		transform: translateY(-710%) translateX(-50%);
 	}
 `;
 
@@ -219,8 +220,7 @@ const NavTitle = styled.div`
 		height: 0.125rem;
 	}
 	${theme.breakpoints.lg} {
-    margin-bottom: 0;
-    margin-left: .5rem;
+		margin-bottom: 0;
 	}
 `;
 

@@ -12,8 +12,8 @@ import bookmarks from '../api/bookmarks.json';
 export default function figmaTools() {
 	return (
 		<>
-			<PageWrapper>
 				<DesktopMainNav />
+			<PageWrapper>
 				<PageHeading>
 					Tools for the <Highlighter>Figma</Highlighter> user.
 				</PageHeading>
