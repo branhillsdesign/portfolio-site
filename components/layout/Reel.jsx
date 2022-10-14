@@ -9,7 +9,7 @@ export const StyledReel = styled.main`
 	grid-area: 2/2/3/4;
 	display: grid;
 	grid-auto-columns: 25ch;
-	grid-template-rows: repeat(4, minmax(min-content, max-content));
+	grid-template-rows: repeat(4, minmax(min-content, 1fr));
 	grid-column-gap: 1.5rem;
 	grid-row-gap: 1.5rem;
 	grid-auto-flow: column;
