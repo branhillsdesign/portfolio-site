@@ -18,7 +18,7 @@ export default function Keeps() {
 			<DesktopMainNav />
 			<PageWrapper>
 				<PageHeading>
-					All my <Highlighter>bookmarks</Highlighter>.
+					All my <Highlighter>bookmarks</Highlighter>
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>

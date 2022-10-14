@@ -14,10 +14,10 @@ import bookmarks from '../api/bookmarks.json';
 export default function articles() {
 	return (
 		<>
+			<DesktopMainNav />
 			<PageWrapper>
-				<DesktopMainNav />
 				<PageHeading>
-					Apps we <Highlighter>Love</Highlighter>.
+					Apps we <Highlighter>Love</Highlighter>
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>

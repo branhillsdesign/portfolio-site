@@ -1,3 +1,5 @@
+/** @format */
+
 import { PageWrapper } from '../../components/layout/PageWrapper.jsx';
 import { PageHeading } from '../../components/layout/PageHeading.jsx';
 import { Highlighter } from '../../components/fonts/Highlighters.jsx';
@@ -12,10 +14,10 @@ import bookmarks from '../api/bookmarks.json';
 export default function coolThings() {
 	return (
 		<>
+			<DesktopMainNav />
 			<PageWrapper>
-				<DesktopMainNav />
 				<PageHeading>
-					Apps we <Highlighter>Love</Highlighter>.
+					Apps we <Highlighter>Love</Highlighter>
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
