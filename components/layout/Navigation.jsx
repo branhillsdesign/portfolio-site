@@ -194,10 +194,10 @@ const SideNavStyles = styled.nav`
 		rotate: 270deg;
 		display: flex;
 		flex-direction: row-reverse;
-		width: min-content;
-		height: min-content;
+    width: 60px;
+    height: 60px;
     gap: 1.5rem;
-		transform: translateY(-710%) translateX(-50%);
+		align-items: center;
 	}
 `;
 
