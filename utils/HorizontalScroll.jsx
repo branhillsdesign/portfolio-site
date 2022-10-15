@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import DOM from 'react-dom';
@@ -181,14 +183,22 @@ export default class ScrollHorizontal extends Component {
 		const { config, style, children } = this.props;
 		const { width, height } = style;
 		const springConfig = config || presets.noWobble;
-
+// & .scroll-horizontal {
+// 		&::-webkit-scrollbar {
+// 			height: 4px;
+// 		}
+// 		&::-webkit-scrollbar-thumb {
+// 			background: ${theme.dark.subtle};
+// 			border-radius: 8px;
+// 		}
+// 		scrollbar-color: ${theme.dark.subtle} transparent;
+// 	}
 		// Styles
 		const styles = {
 			position: 'relative',
-      overflowX: `hidden`,
-      width: `100%`,
-      height: `100%`,
-			...style,
+      overflowX: 'scroll',
+			height: `100%`,
+      ...style,
 		};
 
 		return (
@@ -204,7 +214,7 @@ export default class ScrollHorizontal extends Component {
 							transform: `translate3d(${z}px, 0,0)`,
 							display: `inline-flex`,
 							height: `100%`,
-							// position: `absolute`,
+							position: `absolute`,
               willChange: `transform`,
 						};
 
@@ -232,7 +242,7 @@ ScrollHorizontal.propTypes = {
 };
 
 ScrollHorizontal.defaultProps = {
-	reverseScroll: false,
+	reverseScroll: true,
 	pageLock: false,
 	config: null,
 	style: { width: `100%`, height: `100%` },
