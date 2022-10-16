@@ -29,8 +29,12 @@ export default function figmaTools() {
 							if (bookmark.tags.includes('Figma Plugin' || 'Figma File')) {
 								return (
 									<>
-										<a href={bookmark.link} target='_blank'>
-											<ImageContainer key={key} src={bookmark.img} height='100%'/>
+										<a href={bookmark.link} target='_blank' rel='noreferrer'>
+											<ImageContainer
+												key={key}
+												src={bookmark.img}
+												height='100%'
+											/>
 										</a>
 									</>
 								);
