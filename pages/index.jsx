@@ -46,7 +46,7 @@ export default function Home() {
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					<ContentBlock gap='1.5rem' gridRow='span 4'>
+					<ContentBlock gap='1.5rem'>
 						<P1>{`Yo, I'm Bran. Welcome to my brain. This website scrolls horizintally with your mouse wheel for now. Updates coming soon.`}</P1>
 						<P1>
 							{`I'm a staff designer crafting our brand at `}
@@ -63,19 +63,15 @@ export default function Home() {
 						<P1>
 							{`This website is where I track my work, thoughts, ideas, and life experiences. It's also where I'm learning and experimenting with new things, so take a look around and chat with me about stuff on Twitter @branhillsdesign.`}
 						</P1>
-						
+
 						<WorkHistory />
 					</ContentBlock>
-					<ImageContainer
-						src={laurenBarry}
-						gridRow='span 2'
-						gridColumn='span 2'
-					/>
-					<ImageContainer src={laurenBranHillsChicagoPier} gridRow='span 2' />
-					<ImageContainer src={harrison} gridRow='span 4' />
-					<ImageContainer src={barrett} gridRow='span 4' />
-					<ImageContainer src={branHarryFish} gridRow='span 2' />
-					<ImageContainer src={chicagoTrip} gridRow='span 4' />
+					<ImageContainer src={laurenBarry} />
+					<ImageContainer src={laurenBranHillsChicagoPier} height='16rem'/>
+					<ImageContainer src={harrison} height='40rem' />
+					<ImageContainer src={barrett} height='30rem' />
+					<ImageContainer src={branHarryFish} height='15rem' />
+					<ImageContainer src={chicagoTrip} height='15rem'/>
 				</Reel>
 				<Footer />
 			</PageWrapper>

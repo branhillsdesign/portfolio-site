@@ -95,91 +95,104 @@
 		"name": "Themer",
 		"label": "Themer",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/731176732337510831"
+		"link": "https://www.figma.com/community/plugin/731176732337510831",
+    "img": "https://s3-alpha-sig.figma.com/plugins/731176732337510831/39004/35bb59ee-e0c4-46f7-939c-a12020da7243-cover?Expires=1666569600&Signature=APtst-I~SumLhpib2KaKjAF7RDLnjhqeukBr4F8pHSO6iO~3WTLV~IvXKn3sHA4Ii4uG59CYcHIz38oM2eWXojPhrWKUw6O5fpQy~tbME~TWSGK8A0xJP2DPJD6KBkeJSfrFvw4l-cgyqniKKC5Li3mDQrdGQ8aG8FNKmWqgaTX28n1zNd~MHTGHtFa1Yo4wZnhmCAamrSdikUjPJCRkPnoE97zx1Pl9p-OSYHrh3V9BTb~9HhqeszxjN8FeN-Toup~HW2nA6KRNS66NHtsVlqEQrBL~U3t75wyy~JcDrr0IP02HdsvKFfdOQtQy5bC1stnnbLOs~eUmbxxjL-rCZg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"15": {
 		"type": "bookmark",
 		"name": "Blobs",
 		"label": "Blobs",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/739208439270091369"
+		"link": "https://www.figma.com/community/plugin/739208439270091369",
+    "img": "https://s3-alpha-sig.figma.com/plugins/739208439270091369/26901/d07b6d66-ef87-4ee2-a774-adfad6bb598a-cover?Expires=1666569600&Signature=PBcpsBcVtEMOQ0SJqDGGJgaFyJAOI1IN5tUhD5SNw15gjOeoU17uMi6KXgpmqkR7QdbrP-38yoq2csAQcUN6VmEZXtUzZ6fJytm3Mq605otsOnMWf4tIVjGKRXCVC6GciMNyrxIXf8IyJUXQqpsXkuTw-e4oumwPuUVmjcQELYydRSYWy7hCwpsJYihGGI~OOZImG-pAe-RBqzwfyQxHdJX9HvhYX5ra~9JdgNqLxx8VeYmxLrCA16aLk6YOpQjbWpqUhqfTppF8PlgNJmF8~-2G~nZM1BtQNX13TjWjGQ1WHxeanqgEtPbtCMQCik3y-tq85tjdTfPG3tKJYgAk0Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"16": {
 		"type": "bookmark",
 		"name": "Get Waves",
 		"label": "Get Waves",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/745619465174154496"
+		"link": "https://www.figma.com/community/plugin/745619465174154496",
+    "img": "https://s3-alpha-sig.figma.com/plugins/745619465174154496/765/8c0b4721-b40d-4387-95c9-c93003a4c81c-cover?Expires=1666569600&Signature=LbXu2lrDtPQfxc8cSueNYvSr6VLsSri6rQLP4eg1aZSlxpH-AnE7qXxoeiTbtM1TWUCYIT3RsyMmudaDSpHMi-W8IPocje1D~tE0K4bCzMVrw3vftLRkJ6ciqd0cAuK46ejcDWnofO0~ycmSZdPW901oLYCANvsnYV8Ro3xoB8uL984CdWFHC9a~w0EU8xEmQXAYx1tlaCQJte67Qyr8qSkQfeZeGqGT7zBHhbg73SQH8PCSV4a1QAPOO1BjIYaHTEx7C~62zHYPPQRRQj-iiW3c51xE~DLyW3E5se5a8AafxtqMHnVZSfRwwag~60VtJztATQLjmh4BZxlBcW2B6g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"17": {
 		"type": "bookmark",
 		"name": "Arc",
 		"label": "Arc",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/762070688792833472"
+		"link": "https://www.figma.com/community/plugin/762070688792833472",
+    "img": "https://s3-alpha-sig.figma.com/plugins/762070688792833472/1405/01a42eda-3ff6-4773-a327-61c0813f46ef-cover?Expires=1666569600&Signature=EyzF-ls300t0zgeWg3525GSClxA7kPm~LzSiMHlwBhPs7PEmQaYj2WS2RWbKkv5kaqhg9LeZDBcCSrhaFKiXOHcw~rTIZ3n8mf6eIMrNOmfF-rTIvpcmvHdRGxSNVgxFpHiB4YYOh1wrNHV-scuczEDZO1McksQVcvCvp77nU25JVRpKa2WK27lUyQ~3BKBx4CjV-2t~hMOhlBZvsKVg2nI-fcyCb-ctLaVsmUwkndNtyHei8zLarqklx1gVmZIUMJ2nSL8L18NMrj7ZSYCsYz9DyXlE6gVI9e6y~TmT7s183Slt-hPX62tFiTKkkV3BNRq2qusdvx1jL46sHIcxSw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"18": {
 		"type": "bookmark",
 		"name": "A11y Color Contrast Checker",
 		"label": "A11y Color Contrast Checker",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/733159460536249875"
+		"link": "https://www.figma.com/community/plugin/733159460536249875",
+    "img": "https://s3-alpha-sig.figma.com/plugins/733159460536249875/186/7fa5cb17-c66c-4014-9427-c6599b5383f7-cover?Expires=1666569600&Signature=XKrJQu26LQqRKiAuqdZnlPJ6La--n~qZOuBTqD5-3Z8qNMh~NmKxFT-qv93HdJSJgXfTfm3nUotBh52co2DYie71~uIJZjSpuWnTyi5gplSXPXDXZ5ffRqRQUi-g0HTkOqeo85k3oddfxmU4hnrSXwycxpGQ2pdIQFjT5J9CLdS-b-KLNmERIlS4ebApqyduGmRdDW4NB-4PG9JlWKbLIxKZRTaBZJ1NvJSJ6e-08w02xOYc5PFCb-SFRPsPudmLSHVto51x303j-VtVYoeUlk8aJ2L9415RPK3WDiobTXnWWec6l8YL9xyowlkeo7dnClzOipaJuLWobDdo8Tyarw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"19": {
 		"type": "bookmark",
 		"name": "Color System",
 		"label": "Color System",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/1018552603902710764"
+		"link": "https://www.figma.com/community/plugin/1018552603902710764",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1018552603902710764/21327/3f3cff01-c8d6-4366-8629-5879cc4bffdb-cover?Expires=1666569600&Signature=DSwSZ4gKgF3gSe~8TkgeqMh74ZRIgdvRyIwEw~c6yiCW05n553Yvpji-V-3LBn7NRYvQDXloLHAN0AtqOXSgpmDT~0ENBsg1AY6xXfkpzwHK2dNwEQzehb9Yb9xclIXDfgDmU9XmD0qRGkuM6fzUcrXsKdbGPjjGBRDqnZ7PY4t12Xcs53VfBdB3PDu4wD1GOameyT-B8XqnbThzb~3lv61RR3P1lD0XaWcDnB2tG3yeY5DXIGIJCTeVS02VPfrWsBP3fI3pGcEAKmd7WUvs-rrY3FjmXdx4t5yXddMK3jccTnLsC~zATSRYyo6imR3GlN2tNxtPtGwEpauzt9moHA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"20": {
 		"type": "bookmark",
 		"name": "Gist",
 		"label": "Gist",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/1073059820691713754"
+		"link": "https://www.figma.com/community/plugin/1073059820691713754",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1073059820691713754/36034/54828810/d49a55fc-0d75-4b36-b519-8ec4bf89057e-cover?Expires=1666569600&Signature=Rki1ODcj-bRluqmdn9GcWUfa6tJOLOw9OuT9Vaj116VwfAzTiVPpp6ZAtKwLzseD0O7XZNrkvzAC~uTW-JTJXEJLffHpkaLSYA3KJ6OPs~zBKQsP1BNbvN~~b8Ygl2v4Y5n06tUA0Qolz3EG70gSK4vUPZb6tYc~W9O6R4wXlFGf3VfyNNoOaKT3CltGUSF8IufMq-HJLO7toJlxmQyT8vMBgi40hbqOV~hvh7lCpIJyYMKHgTbMZw3JRxuwcHDeXiLhB54kt4-zMJi4r5QPyc0RUrRYmaLIXbzdBULxgiJPdDGCclspyEbi3VqwLFO6qVgvexe2cpe9uOiYmCG9zg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"21": {
 		"type": "bookmark",
 		"name": "Figpie",
 		"label": "Figpie",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/924390003304842148"
+		"link": "https://www.figma.com/community/plugin/924390003304842148",
+    "img": "https://s3-alpha-sig.figma.com/plugins/924390003304842148/12770/58463601-7995-4fef-9f46-4724354efac5-cover?Expires=1666569600&Signature=QVpQWRP~HYnu0CBba57vOfOAqaquzKGKS8waHlKY3MMmcp3Qyla9U88P3sIbMj6luqiqskLfx8gRnpmUgEnQUWb2GzDkxWnYO4ik6oDddkM-HeEouqYGQRtKMwJcT2BsQ6htWf266Jg7bAZ7I~pMgeqLYtl6i86zLW2hgV1JD5m11L3HzCLdu4odw5eNbMLghXOSpEghRcNE5153yIE9cubgjk87lWO4SQv2JdrxxKSGc32mKVWezWunWlWlWzqvItt8Hun7eb6nSrlWrQWufjJaNm-Rc47LJPmACgIfFa8XtW5V91J5alQoDIcOq-HoMurV6~d6fgJKmG46sZT36Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"22": {
 		"type": "bookmark",
 		"name": "Grayscale",
 		"label": "Grayscale",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/1105916617805028875"
+		"link": "https://www.figma.com/community/plugin/1105916617805028875",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1105916617805028875/32325/57358433/c9160493-697c-4d5a-9b9b-5db30bdf8e7a-cover?Expires=1666569600&Signature=MlUVzae-RdHzW5ioL7u28QC~aqJNOMnfAOK3gqDjZYwE3QOpMTWVvFgqOZ7rrY24rlTY24oLxbx8h-V0wdisGZIOIymZcrUxORQCEowk8BeAUAvBWZ5eLiLXW8-tREHCSKSDg~fkHZ87kPSpI2h3T4MrgxD-SibW-HY4ue2CFT-A7xm6t0zHjurkua96oRDDuVn17XD3jz1O7yQqPLRKttxdN0m1lOFosqZbPNJBzykSeCQUVSgo5jztV~Jryi-Se67G-r0r6A5NywoGuaGo-VVr1gLEtNgWAbMBVbeY7rbUxr6GzjPFieoiRnHiVz1cEKIwC0AkmFE2tkQoCvI8JQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"23": {
 		"type": "bookmark",
-		"name": "Noise",
-		"label": "Noise",
+		"name": "Noise & Texture",
+		"label": "Noise & Texture",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/752558325552095625"
+		"link": "https://www.figma.com/community/plugin/752558325552095625",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1138854718618193875/40952/cbea2b44-9b10-4546-bac6-f301ae727d5f-cover?Expires=1666569600&Signature=I2P5C6VNQiFl2hYmbQMIRQ~U9ieshrWgfG~7JDVy1YnMpzhOG-zK2gbSPv8MjIo~G9eeCsQx417OhvBi4PSfToDzbgWN1EXzdDhhpfEaid-Om2re9qnMMcKc8YAnmPGQs66sxOwxkqIzOaVIEnwI8DEHjV8F1-JL4AuVOi8bcYugYJf6GfGiV1ylI2kGtiBhiaupwH8xm0TkJQ9gLm~hXOjBKZsIU2L~itEOr68VyaLCh7Yn7g2g25XnX0XUvtgDI3AhJ6GRR~g~J1tg7-z0CoL0T4JQVzNE5mFbS9AvWOfdk51UbEO~2x7ta7cyzHmAosk2fAkdLXpGM5wNMMOSsg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"24": {
 		"type": "bookmark",
 		"name": "To Path",
 		"label": "To Path",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/751576264585242935"
+		"link": "https://www.figma.com/community/plugin/751576264585242935",
+		"img": "https://s3-alpha-sig.figma.com/plugins/751576264585242935/7202/f866d3b5-00e5-43b1-b88b-9a58aa4fa0ca-cover?Expires=1666569600&Signature=QXMmhHfuRjn2QJU0MAxJmiAxIYq7UvS64JrgfMzmyXga2m9Fuzw4aGQLPcJxv~rFl5f~LBRAh7qNSDN6CmzrTKKunLdLWi7TllW-ZhDntWcO2NRCnZHlAnNpRfiHKbb8U3UX8EWRCcTa97tlS5G5uR2V3aWZ5BucQzI3btkKKeqft2w8cw6ISHz5dlm4Jq8IxshXD29fikn697AMkvqJsPJ7xvTNIYEfDWaQkeuHNfeBbIAb3OvYGpPUb0CNHWgKzWs1mnkxmWWabqvtCh43FbmMA~-0tEQQjoKeVkGrZo9U4IJliOCf4Hkx9IuTrBtSpvlSYCHLOkV5s~AjsMdoeg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"25": {
 		"type": "bookmark",
 		"name": "Super Tidy",
 		"label": "Super Tidy",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/731260060173130163"
+		"link": "https://www.figma.com/community/plugin/731260060173130163",
+		"img": "https://s3-alpha-sig.figma.com/plugins/731260060173130163/4/214fdb23-25cc-44f4-9b51-5ba2254718e5-cover?Expires=1666569600&Signature=CDvxWdCNUOZDLvza7xCqABTxq-dz1djfJbbeY28hllPFLX~A5QWKQJRWW3YJ720bz2TZf75zn6-5XmjiH6lk8XUOzZ0E3rOEeMrBSswyBrhW~aTlXSLF9UPbAL8CXlmwqlVeMaNQQmgsiZ43zNpLLQkANasMtvRJ~jSGGZy~pi-rFgGX4F63Y9FyHx-YqC8-VS8zK5Eb84rpkdMDnCedzsKiAQmoeqYgocIwPJi5-yFIYFQOy9zZI-tVetPJWWGfAaoQ7M6TJ~aip3r0NDdEMf2WynfZjPUNTE5BrpOa~e3WhKXjV0f5OETnS701lJNQGkCnSiQPZSyaJwgK7TOT7g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"26": {
 		"type": "bookmark",
 		"name": "QuickFrames",
 		"label": "QuickFrames",
 		"tags": ["Figma File"],
-		"link": "https://rafaltomal.com/quickframes/"
+		"link": "https://rafaltomal.com/quickframes/",
+		"img": "https://rafaltomal.com/wp-content/uploads/2020/10/qf-social-1.png"
 	},
 	"27": {
 		"type": "bookmark",
@@ -193,7 +206,8 @@
 		"name": "iOS 16 UI Kit for Figma",
 		"label": "iOS 16 UI Kit for Figma",
 		"tags": ["Figma File"],
-		"link": "https://www.figma.com/community/file/1121065701252736567"
+		"link": "https://www.figma.com/community/file/1121065701252736567",
+		"img": "https://s3-alpha-sig.figma.com/hub/file/2329019022/0841451c-5f41-4858-a540-0f46c853fc52-cover.png?Expires=1666569600&Signature=RdpCHBtF1d1k-jaPI7fDRHcyzGSE7C4thfLIDdXPzUplD8-lqmzhxajqsn7z085ZCgSK~P-kJApS9V09njGyaHBfbK0gEPE7hIyoh0b-9-iTGCFr~sFUoI2Ik-H2QCy~utUZwyQHa3vBrLGr6GE06JoITxnofDVPPl9158XDoFNnOAFI5MidNl3NdYAr6GdDbeujZB9wvhufwSriOQedyYXYmTmv82d4-K7pJsgcVb9EbQs4M4M4xITUHPM2mNtPyOLqLu7mZRDtaTOZ9Nj59oi54QIiukuemGjVaWfYagy9oAtMV0g3LPfSLJX-NcfSEKVMtYpcp9hqGrjrsZkLqA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"29": {
 		"type": "bookmark",
@@ -228,7 +242,8 @@
 		"name": "Radial Generator",
 		"label": "Radial Generator",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/1118321937703348544"
+		"link": "https://www.figma.com/community/plugin/1118321937703348544",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1118321937703348544/33931/dc170033-a75c-4603-b30d-242d0209c547-cover?Expires=1666569600&Signature=FqXYI8Rz54aWODZXz3T~~sk7E6Qr~L5wY8RCpQpFgrp62MB8hq2dUtVplR3xhzpLyZJiZ1Ehv4S0qqOfcljyL2f7PCYKo0gXOxg7WbEJAP~Oir6sJi7BDFsLj2xe2SjPkKPKQJ4uTa6iQgVTp403yP-ornWSPHWnUbHezhxGTkRy9r2J0qayzsq7sRbt7pojeHDvRVsZ7fqzU4yvdrAnwTc~LXf~FcFOyYupCR1yWwO8tMl2XjLK-NJZU~WbhI--HO~~EexL4gyXFw61YyTYuMwrnW1a35NBBv6LRsFdKPb61TQuNj0bAh~SXUiphrAtnNmxI3scjxJy-Jl4TgkwMQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
 	},
 	"34": {
 		"type": "bookmark",
@@ -1012,13 +1027,23 @@
 		"name": "Alphredo",
 		"label": "Alphredo",
 		"tags": ["Apps"],
-		"link": "https://alphredo.app/"
+		"link": "https://alphredo.app/",
+    "img": ""
 	},
 	"146": {
 		"type": "bookmark",
 		"name": "Alphredo",
 		"label": "Alphredo",
 		"tags": ["Figma Plugin"],
-		"link": "https://www.figma.com/community/plugin/1139249018997247390"
-	}
+		"link": "https://www.figma.com/community/plugin/1139249018997247390",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1139249018997247390/37538/650457f4-0f26-49ad-a1b3-f50c847a1435-cover?Expires=1666569600&Signature=FbbonZZLHlIqvJZKdTPSGuh4lWCr15UEokET62ETy7YKwR01vO4HZHFst~BbSyXAWcstvLaudPZyz~5T4~f5Hf3cYNYVEn77DQo741Ht3cgkBf7Iu6dVP000B86rhiu15TMFOPtMQWsdxWpGMfJg36bBm2jBnndE4YCeXKBWC8W7AUxNC5rJzEWu3cdAVbiE-pF8b1bpq57wibcvsiZAldHa25RChejj8MfYPdZhy5134egdMmcDoX35qR~dzpb7mg1OuZSnYtiU5QBtYV5mBa3Ufgs6P6nls-Qw-GFD9cVgtWXGO-IA333qul9fXa3NrgtqIJsnzLIKShqstxV6sA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+	},
+  "147": {
+    "type": "bookmark",
+    "name": "Figma Autoname",
+    "label": "Figma Autoname",
+    "tags": ["Figma Plugin"],
+    "link": "https://www.figma.com/community/plugin/1160642826057169962",
+    "img": "https://s3-alpha-sig.figma.com/plugins/1160642826057169962/40988/5cc1b32d-465d-4f45-a9db-990f54b4ecc6-cover?Expires=1666569600&Signature=EHqr70tTLKTZRdgvmkqtX3sXs8U-PINBCfO7Y5ANIFhiHug6CI-BRxVsyqEHWmE0K7s3y6RuTtrVjOrkWmnspHsrENb6MwHL1-ocGCEq4P4d6BR1GCQj1qENCWTx-WOsu8oBvfseazLQm3DaRWLhh5Njfbii6sftalRuo3C12YpQsiKStSQkkK0rOcEGZ4pyH7QcpP4u5BDCB0trVSB7i0Yc~BJIc6HpMgv0QgTpDBkTeBq51tArG9a643cagRKQNZ9ogwMWch8LeESFCvLkfKNpG2PN44Xt2qi2mQqY1RnjgkwuL65qpyo~479~KtlRvU8FHeBVOro2YT4jhfMx2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+  }
 }

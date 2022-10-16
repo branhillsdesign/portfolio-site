@@ -1,3 +1,5 @@
+/** @format */
+
 module.exports = {
 	i18n: {
 		locales: ['en'],
@@ -14,6 +16,10 @@ module.exports = {
 		return config;
 	},
 	images: {
-		domains: ['covers.openlibrary.org'],
+		domains: [
+			'covers.openlibrary.org',
+			'www.figma.com',
+			's3-alpha-sig.figma.com',
+		],
 	},
 };

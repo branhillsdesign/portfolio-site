@@ -11,26 +11,29 @@ import {
 } from '../../components/layout/Navigation.jsx';
 import movies from '../api/movies.json';
 import { H4, P1 } from '../../components/fonts/TypeStyles.jsx';
+import { ContentBlock } from '../../components/layout/ContentBlock.jsx';
 
 export default function Movies() {
 	return (
 		<>
-				<DesktopMainNav />
+			<DesktopMainNav />
 			<PageWrapper>
 				<PageHeading>
 					My <Highlighter>Top Ten</Highlighter> of all time.
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					{Object.entries(movies).map(([key, movieItem]) => {
-						return (
-							<>
-								<H4 key={key}>{movieItem.Title}</H4>
-								<P1 key={key}>{movieItem.URL}</P1>
-								<P1 key={key}>{movieItem['Release Date']}</P1>
-							</>
-						);
-					})}
+					<ContentBlock>
+						{Object.entries(movies).map(([key, movieItem]) => {
+							return (
+								<>
+									<H4 key={key}>{movieItem.Title}</H4>
+									<P1 key={key}>{movieItem.URL}</P1>
+									<P1 key={key}>{movieItem['Release Date']}</P1>
+								</>
+							);
+						})}
+					</ContentBlock>
 				</Reel>
 				<Footer />
 			</PageWrapper>
