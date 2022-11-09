@@ -11,7 +11,6 @@ import {
 } from '../../components/layout/Navigation.jsx';
 import bookmarks from '../api/bookmarks.json';
 import { ImageContainer } from '../../components/utils/ImageContainer.jsx';
-import Link from 'next/link.js';
 import { BookmarkGallery } from '../../components/layout/BookmarkGallery.jsx';
 
 export default function figmaTools() {

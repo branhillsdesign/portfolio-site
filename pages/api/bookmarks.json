@@ -1045,5 +1045,12 @@
     "tags": ["Figma Plugin"],
     "link": "https://www.figma.com/community/plugin/1160642826057169962",
     "img": "https://s3-alpha-sig.figma.com/plugins/1160642826057169962/40988/5cc1b32d-465d-4f45-a9db-990f54b4ecc6-cover?Expires=1666569600&Signature=EHqr70tTLKTZRdgvmkqtX3sXs8U-PINBCfO7Y5ANIFhiHug6CI-BRxVsyqEHWmE0K7s3y6RuTtrVjOrkWmnspHsrENb6MwHL1-ocGCEq4P4d6BR1GCQj1qENCWTx-WOsu8oBvfseazLQm3DaRWLhh5Njfbii6sftalRuo3C12YpQsiKStSQkkK0rOcEGZ4pyH7QcpP4u5BDCB0trVSB7i0Yc~BJIc6HpMgv0QgTpDBkTeBq51tArG9a643cagRKQNZ9ogwMWch8LeESFCvLkfKNpG2PN44Xt2qi2mQqY1RnjgkwuL65qpyo~479~KtlRvU8FHeBVOro2YT4jhfMx2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+  },
+  "148": {
+    "type": "bookmark",
+    "name": "Design Leadership",
+    "label": "Building a team of designers",
+    "tags": ["Article", "Leadership"],
+    "link": "https://joelcalifa.com/work/digitalocean-design-leadership/"
   }
 }
