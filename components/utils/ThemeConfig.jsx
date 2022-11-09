@@ -88,7 +88,7 @@ export const theme = {
 	text: {
 		// Display Type Styles
 		display:
-			'font-weight: 900; font-size: calc(3rem + (96 - 32) * ((100vw - 375.98px) / (3440 - 375.98) ));',
+			'font-weight: 900; font-size: calc(2.75rem + (96 - 32) * ((100vw - 375.98px) / (3440 - 375.98) ));',
 
 		// Heading Type Styles
 		h1: 'font-weight: 700; font-size: 2.5rem;',

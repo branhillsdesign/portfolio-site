@@ -139,7 +139,7 @@ export const sideNavMenu = {
 const MainNavStyles = styled.nav`
 	text-transform: capitalize;
 	display: flex;
-	padding:  1.5rem calc(5vw - 1rem);
+	padding: 1.5rem calc(5vw - 1rem);
 	${theme.breakpoints.lg} {
 		justify-content: space-around;
 		padding: 1.5rem 5vw;
@@ -189,14 +189,12 @@ export const DesktopMainNav = (props) => {
 // Desktop Side Nav Layout Styles
 const SideNavStyles = styled.nav`
 	grid-area: 2/1/3/2;
+	padding-right: 1.5rem;
 	${theme.breakpoints.lg} {
 		grid-area: 1/3/3/4;
-		rotate: 270deg;
+		rotate: -90deg;
 		display: flex;
 		flex-direction: row-reverse;
-    width: 60px;
-    height: 60px;
-    gap: 1.5rem;
 		align-items: center;
 	}
 `;

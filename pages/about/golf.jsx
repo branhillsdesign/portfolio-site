@@ -31,7 +31,7 @@ import { Spacer } from '../../components/utils/Spacer.jsx';
 export default function Golf() {
 	return (
 		<>
-				<DesktopMainNav />
+			<DesktopMainNav />
 			<PageWrapper>
 				<PageHeading>
 					The more I practice, the <Highlighter>luckier</Highlighter> I get.
@@ -39,7 +39,7 @@ export default function Golf() {
 				<DesktopSideNav />
 				<Reel>
 					<ContentBlock gridRow='span 4'>
-						<H2 color={theme.dark.vivid}>Golf Club Stock Distances</H2>
+						<H2 color={theme.dark.vivid}>Notes for the course</H2>
 						<Spacer />
 						<P1 color={theme.dark.vivid}>
 							<ul>
@@ -53,35 +53,36 @@ export default function Golf() {
 							</ul>
 						</P1>
 					</ContentBlock>
-
-					{Object.entries(golfClubs).map(([key, clubData]) => {
-						return (
-							<>
-								<CardSurface key={key} padding='0.5rem 1rem'>
-									<FlexBox justifyContent='space-between' alignItems='center'>
-										<H6 color={theme.dark.maindim} textTransform='capitalize'>
-											{clubData.type}
-										</H6>
-										<Small color={theme.dark.dim}>{clubData.loft}°</Small>
-									</FlexBox>
-									<LabelSmall
-										color={theme.dark.vivid}
-										textTransform='capitalize'>
-										{clubData.brand}
-									</LabelSmall>
-									<H5 color={theme.dark.vivid} textAlign='right'>
-										{clubData.carry} yds
-									</H5>
-									{/* <H5 color={theme.dark.vivid} textAlign='right'>
+					<ContentBlock gap='1.5rem' childMinWidth='15ch'>
+						{Object.entries(golfClubs).map(([key, clubData]) => {
+							return (
+								<>
+									<CardSurface key={key} padding='0.5rem 1rem'>
+										<FlexBox justifyContent='space-between' alignItems='center'>
+											<H6 color={theme.dark.maindim} textTransform='capitalize'>
+												{clubData.type}
+											</H6>
+											<Small color={theme.dark.dim}>{clubData.loft}°</Small>
+										</FlexBox>
+										<LabelSmall
+											color={theme.dark.vivid}
+											textTransform='capitalize'>
+											{clubData.brand}
+										</LabelSmall>
+										<H5 color={theme.dark.vivid} textAlign='right'>
+											{clubData.carry} yds
+										</H5>
+										{/* <H5 color={theme.dark.vivid} textAlign='right'>
 										{clubData.actual} yds
 									</H5> */}
-									<Small color={theme.dark.vivid} textTransform='capitalize'>
-										{clubData.name}
-									</Small>
-								</CardSurface>
-							</>
-						);
-					})}
+										<Small color={theme.dark.vivid} textTransform='capitalize'>
+											{clubData.name}
+										</Small>
+									</CardSurface>
+								</>
+							);
+						})}
+					</ContentBlock>
 				</Reel>
 				<Footer />
 			</PageWrapper>

@@ -10,6 +10,8 @@ import {
 	DesktopSideNav,
 } from '../components/layout/Navigation.jsx';
 import bookmarks from './api/bookmarks.json';
+import { ContentBlock } from '../components/layout/ContentBlock.jsx';
+import { H4, P1 } from '../components/fonts/TypeStyles.jsx';
 // import { BookmarkContainer } from '../components/primitives/BookmarkContainer.jsx';
 
 export default function Keeps() {
@@ -22,16 +24,18 @@ export default function Keeps() {
 				</PageHeading>
 				<DesktopSideNav />
 				<Reel>
-					{/* <BookmarkContainer>Bookmark</BookmarkContainer> */}
-					{Object.entries(bookmarks).map(([key, bookmark]) => {
-						return (
-							<>
-								<h4 key={key}>{bookmark.name}</h4>
-								<p key={key}>{bookmark.link}</p>
-								<p key={key}>{bookmark.tags}</p>
-							</>
-						);
-					})}
+					<ContentBlock>
+						{/* <BookmarkContainer>Bookmark</BookmarkContainer> */}
+						{Object.entries(bookmarks).map(([key, bookmark]) => {
+							return (
+								<>
+									<H4 key={key}>{bookmark.name}</H4>
+									<P1 key={key}>{bookmark.link}</P1>
+									<P1 key={key}>{bookmark.tags}</P1>
+								</>
+							);
+						})}
+					</ContentBlock>
 				</Reel>
 				<Footer />
 			</PageWrapper>
