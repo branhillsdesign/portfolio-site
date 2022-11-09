@@ -195,9 +195,6 @@ const SideNavStyles = styled.nav`
 		rotate: -90deg;
 		display: flex;
 		flex-direction: row-reverse;
-		width: 60px;
-		height: 60px;
-		gap: 1.5rem;
 		align-items: center;
 	}
 `;
